@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otobo_package version="1.0">
+  <Name>OtoboDarkSkin</Name>
+  <Version>?</Version>
+  <Framework Minimum='11.0.0'>11.x.x</Framework>
+  <Vendor></Vendor>
+  <URL>https://github.com/relkai/otobo-dark-skin</URL>
+  <License>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</License>
+  <Description Lang="en">OTOBO Dark Skin</Description>
+  <BuildHost>?</BuildHost>
+  <BuildDate>?</BuildDate>
+  <Filelist>
+    <!-- Configuration file -->
+    <File Permission="660" Location="Kernel/Config/Files/XML/OtoboDarkSkin.xml" />
+    <!-- Content files - CSS -->
+    <File Permission="660" Location="thirdparty/nvd3-1.7.1/nv.d3.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Agent.Admin.ACL.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Agent.Admin.CommunicationLog.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Agent.Admin.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Agent.Admin.PackageManager.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Agent.Admin.PostMasterFilter.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Agent.Admin.ProcessManagement.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Agent.Admin.SupportDataCollector.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Agent.Admin.SystemConfiguration.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Agent.Dashboard.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Agent.Statistics.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Agent.TicketMenuModuleCluster.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Agent.TicketProcess.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.AppointmentCalendar.Agenda.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Default.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Dialog.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Footer.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Form.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Header.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.InputFields.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Installer.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Login.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.MigrateFromOTRS.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.OverviewControl.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.OverviewLarge.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.OverviewMedium.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.OverviewSmall.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.PageLayout.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Print.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Reset.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Responsive.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Table.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.TicketDetail.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Tooltip.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Widget.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.WidgetMenu.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/DynamicFieldDB.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/FAQ.Agent.Default.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/FAQ.Agent.Detail.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Survey.Agent.Default.css" />         
+    <!-- Content files - IMG -->
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/img/filter_add.png" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/img/filter_add_hover.png" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/img/filter_remove.png" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/img/filter_remove_hover.png" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/img/icon_resize_horizontal.png" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/img/icon_resize_vertical.png" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/img/inputfield_tree.png" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/img/toggle_arrow.png" />
+  </Filelist>
+</otobo_package>
