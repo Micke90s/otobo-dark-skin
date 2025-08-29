@@ -213,6 +213,10 @@ table tr.MasterAction {
     background-color: #333;
 }
 
+.DataTable tr:nth-child(odd) td {
+    background-color: #1f1f1f
+}
+
 .DataTable tr:nth-child(even) td {
     background-color: #242424;
 }
