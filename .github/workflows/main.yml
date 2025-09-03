@@ -31,6 +31,7 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4.1.0
         with:
+          ref: ${{ github.ref }}
           set-safe-directory: true
       # Installing OTOBO inside of the container 
       - name: Install OTOBO

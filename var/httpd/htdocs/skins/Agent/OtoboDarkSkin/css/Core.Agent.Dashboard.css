@@ -1,7 +1,6 @@
 /* OTOBO is a web-based ticketing system for service organisations.
 
-Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-Copyright (C) 2019-2021 Rother OSS GmbH, https://otobo.de/
+https://github.com/relkai/otobo-dark-skin
 
 This program is free software: you can redistribute it and/or modify it under
 the terms of the GNU General Public License as published by the Free Software
@@ -24,51 +23,10 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
  * @subsection  Event Graph
  */
 
-.MessageBox + #calendar {
-    margin-top: 10px !important;
-}
-
-div.EventDetails {
-    z-index: 5;
-    width: 400px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    border-radius: 2px;
-    border: 1px solid #CCC;
-    background-color: #EEE;
-    padding: 6px;
-}
-
-.EventDetails > fieldset.TableLike > label,
-.EventDetails > fieldset.TableLike > .Value {
-    line-height: 1em;
-}
-
 .FilterInputContainer {
-    width: 98%;
-    border-left: 1px solid #333;
-    border-right: 1px solid #333;
+    border-left-color: #333;
+    border-right-color: #333;
     background-color: #333;
-}
-
-.FilterInputContainer input {
-    width: 95%;
-    display: block;
-    margin: 7px auto;
-}
-
-.SettingsWidget label {
-    position: relative;
-    display: block;
-    padding: 2px 2px 2px 25px;
-    margin-bottom: 3px;
-    line-height: 150%;
-    -webkit-border-radius-: 3px;
-     -moz-border-radius-: 3px;
-     -ms-border-radius-: 3px;
-     -o-border-radius-: 3px;
-     border-radius-: 3px;
-     color: #777;
 }
 
 .SettingsWidget label.Checked {
@@ -76,43 +34,7 @@ div.EventDetails {
 }
 
 .SettingsWidget label:hover {
-    background-color: #ddd;
-    border-color: #ccc;
     color: #c8c6c4;
-    border: 1px solid #ccc;
-    padding: 1px 1px 1px 24px;
-}
-
-.SettingsWidget label input {
-    position: absolute;
-    left: 1px;
-    top: 1px;
-}
-
-.SettingsWidget label:hover input {
-    left: 0px;
-    top: 0px;
-}
-
-.WidgetSimple svg text {
-    font: 11px Arial !important;
-}
-
-/* User lists, DashboardUserOnline */
-
-.DashboardUser .UserRow,
-.DashboardUserOnline .UserRow p {
-    padding-top: 3px;
-    clear: both;
-}
-
-.DashboardUserOnline .UserRow p {
-    display: inline;
-    padding-bottom: 3px;
-}
-
-#RefreshUsers {
-    margin-top: 5px;
 }
 
 } /* end @media */
