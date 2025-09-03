@@ -119,6 +119,30 @@ textarea[readonly] {
  * @subsection  Buttons
  */
 
+button.Add,
+a.Add {
+    background: url(../img/filter_add.png) no-repeat center;
+}
+
+button.Add:hover,
+button.Add:focus,
+a.Add:hover,
+a.Add:focus {
+    background: url(../img/filter_add_hover.png) no-repeat center;
+}
+
+button.Remove,
+a.Remove {
+    background: url(../img/filter_remove.png) no-repeat center;
+}
+
+button.Remove:hover,
+button.Remove:focus,
+a.Remove:hover,
+a.Remove:focus {
+    background: url(../img/filter_remove_hover.png) no-repeat center;
+}
+
 .AddButton,
 .RemoveButton {
     color: #c8c6c4;
