@@ -117,7 +117,11 @@ div.InputField_ToolbarContainer ul li a:hover {
 /**
  * @subsection  jsTree theme - Tree variant
  */
- 
+ .jstree-InputField-Tree .jstree-node,
+.jstree-InputField-Tree .jstree-icon {
+    background-image: url('../img/inputfield_tree.png');
+}
+
 /**
  * @subsection  jsTree theme - No Tree variant
  */

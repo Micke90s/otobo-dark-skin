@@ -52,9 +52,6 @@
     <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/img/filter_add_hover.png" />
     <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/img/filter_remove.png" />
     <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/img/filter_remove_hover.png" />
-    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/img/icon_resize_horizontal.png" />
-    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/img/icon_resize_vertical.png" />
     <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/img/inputfield_tree.png" />
-    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/img/toggle_arrow.png" />
   </Filelist>
 </otobo_package>
