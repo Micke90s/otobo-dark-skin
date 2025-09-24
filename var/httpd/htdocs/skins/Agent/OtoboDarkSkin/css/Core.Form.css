@@ -230,6 +230,14 @@ form textarea.Error:focus {
  * @description Provides a table-like, aligned label-value structure
  */
 
+fieldset.TableLike > label:not(.ck-label),
+fieldset.TableLike > .Row > label:not(.ck-label),
+fieldset.TableLike .Row > .FieldCell label:not(.ck-label) {
+    /*color: var(--colTextLight);*/
+    color: #929292;
+    text-shadow: 0 1px 0 #000;
+}
+
 fieldset.TableLike > label,
 fieldset.TableLike > .Row > label {
     text-shadow: 0 1px 0 #000;
