@@ -23,9 +23,11 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
  * @subsection Fallback Color Definitions 
  */
     
-/* ToDo
-:root {
-    --colMainDark: #00023c;
+/*
+The CSS-Variables cannot be used as the values are redefined on body level by setting `AgentColorDefinitions`
+*/
+:root{
+    /*--colMainDark: #00023c;
     --colMainLight: #000099;
     --colMainHover: #001bff;
     --colBGElement: #fff;
@@ -33,27 +35,46 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
     --colBGLightMedium: #eeeef2;
     --colBGMedium: #e5e5eb;
     --colBGMediumDark: #cdcdd8;
-    --colBGDark: #bfc0ce;
-    --colTextLight: #7f809d;
-    --colTextMedium: #54557c;
+    --colBGDark: #bfc0ce;*/
+    --colTextLight: #929292 !important;  
+    /*--colTextMedium: #54557c;
     --colTextDark: #00023c;
     --colTextErr: #ea2400;
-    --colTextWarn: #f5af36;
-    --colTextLink: #001bff;
-    --colHighlight: #fef235;
+    --colTextWarn: #f5af36;*/
+    --colTextLink: #659ac6 !important;
+    /*--colHighlight: #fef235;
     --colNotifyOK: #c4cdfa;
     --colNotifyWarn: #fffccc;
     --colNotifyErr: #f9bcb2;
     --colHoverLight: #fffccc;
     --colHoverDark: #fef235;
-    --colShadowDark: rgba(0, 2, 71, 0.16);
-}*/
+    --colShadowDark: rgba(0, 2, 71, 0.16);*/
+}
 
+/**
+ * @subsection  Fonts
+ */
+
+#AjaxErrorDialogInner .Icon {
+    /*background: var(--colHighlight);*/
+    /*color: #fff;*/
+}
+
+#AjaxErrorDialogInner .CommunicationError .Icon {
+    /*background: #b8384e;*/
+}
+
+#AjaxErrorDialogInner .Icon.Green {
+    /*background: green;*/
+}
+
+#AjaxErrorDialogInner .FullErrorMessage {
+    /*color: red;*/
+}
 
 /**
  * @subsection  Loading Dialog
  */
-
 
 .Dialog .InnerContent .Waiting {
     background: #fff;
@@ -84,11 +105,13 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
 
 a, a:visited {
+    /*color: var(--colTextLink);*/
     color: #659ac6;
 }
 
 a:hover,
 a:focus {
+    /*color: var(--colTextDark);*/
     color: #82c7ff;
 }
 
@@ -96,18 +119,22 @@ a:focus {
  * @subsection  Headings
  */
 h2 {
-    color: #474747;
+    /*color: var(--colTextMedium);*/
+    color: #474747; 
 }
 
 h3 {
+    /*color: var(--colTextDark);*/
     color: #c8c6c4;
 }
 
 h4 {
+    /*color: var(--colTextDark);*/
     color: #c8c6c4;
 }
 
 h5 {
+    /*color: var(--colTextDark);*/
     color: #c8c6c4;
 }
 
@@ -138,19 +165,21 @@ h5 {
  * @subsection  Text
  */
 .Error {
-    color: #ea2400;
+    /*color: var(--colTextErr);*/
 }
 
 .Warning {
+    /*color: var(--colTextWarn);*/
     color: #f5af36;
 }
 
 .Notice {
+    /*color: var(--colTextDark);*/
     color: #c8c6c4;
 }
 
 .Confirmation {
-    color: #069d07;
+    /*color: #069d07;*/
 }
 
 /**
@@ -159,23 +188,28 @@ h5 {
  */
 
 .ErrorBox {
+    /*color: var(--colTextMedium);*/
     color: rgba(255, 255, 255, 0.9);
+    /*background: var(--colNotifyErr);*/
     background: #B83850;
 }
 
 .SuccessBox {
-    color: #FFF;
+    /*color: #FFF;*/
+    /*background: var(--colNotifyOK);*/
     background: #8FB738;
 }
 
 .ErrorBox span a,
 .SuccessBox span a {
+    /*color: var(--colTextMedium);*/
     color: #fff;
-    border-bottom-color: rgba(255, 255, 255, 0.5);
+    /*border-bottom-color: rgba(255, 255, 255, 0.5);*/
 }
 
 .ErrorBox span a:hover,
 .SuccessBox span a:hover {
+    /*border-color: var(--colTextLight);*/
     border-color: #fff;
 }
 
