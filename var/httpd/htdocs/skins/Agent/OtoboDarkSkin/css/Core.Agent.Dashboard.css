@@ -34,6 +34,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 }
 
 .SettingsWidget label:hover {
+    background-color: #555;    
     color: #c8c6c4;
 }
 

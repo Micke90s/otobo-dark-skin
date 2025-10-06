@@ -100,13 +100,13 @@ div.InputField_ToolbarContainer ul li a:hover {
 .jstree-InputField .jstree-wholerow-ul .jstree-wholerow:hover,
 .jstree-InputField .jstree-wholerow-ul .jstree-wholerow-hovered,
 .jstree-InputField .jstree-focused > .jstree-wholerow {
-    background-color: #33321f;
+    background-color: #555;
 }
 
 .jstree-InputField .jstree-wholerow-ul .jstree-wholerow-clicked:hover,
 .jstree-InputField .jstree-wholerow-ul .jstree-wholerow-clicked.jstree-wholerow-hovered,
 .jstree-InputField .jstree-focused > .jstree-wholerow-clicked {
-    background-color: #4d4b2f;
+    background-color: #666;
 }
 
 .jstree-InputField .Disabled > .jstree-wholerow:hover,

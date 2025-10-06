@@ -28,7 +28,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 .DataTable tbody tr:active td.Clickable,
 .TableSmall tbody tr:active td.Clickable,
 .DataTable tr:nth-child(even):hover td.Highlight {
-    background: #33321f;
+    background-color: #555;
 }
 
 /**
