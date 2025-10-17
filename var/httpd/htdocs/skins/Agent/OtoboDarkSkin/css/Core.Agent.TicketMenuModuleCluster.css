@@ -13,7 +13,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 */
 
 /**
- * @package     Skin "Default"
+ * @package     Skin "OtoboDarkSkin"
  * @section     Header
  */
 
@@ -29,7 +29,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 }
 
 .Cluster ul ul li {
-    border-bottom: 1px solid #272727;
+    border-bottom-color: #272727;
 }
 
 .Cluster ul ul li a:hover {

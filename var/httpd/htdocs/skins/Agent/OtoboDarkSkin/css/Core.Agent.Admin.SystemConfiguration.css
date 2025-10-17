@@ -13,7 +13,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 */
 
 /**
- * @package     Skin "Default"
+ * @package     Skin "OtoboDarkSkin"
  * @section     Application
  * @subsection  Admin
  */
@@ -25,7 +25,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
 
 .GettingStarted li {
-    border: 1px solid #555;
+    border-color: #555;
     background: #333;
 }
 
@@ -90,32 +90,32 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 .WidgetSimple.Setting.IsDirty,
 .Legend span.IsDirty {
-    border-left: 5px solid #448044;
+    border-left-color: #448044;
 }
 
 .RTL .WidgetSimple.Setting.IsDirty,
 .RTL .Legend span.IsDirty {
-    border-right: 5px solid #448044;
+    border-right-color: #448044;
 }
 
 .WidgetSimple.Setting.IsLockedByAnotherUser,
 .Legend span.IsLockedByAnotherUser {
-    border-left: 5px solid #99004f;
+    border-left-color: #99004f;
 }
 
 .RTL .WidgetSimple.Setting.IsLockedByAnotherUser,
 .RTL .Legend span.IsLockedByAnotherUser {
-    border-right: 5px solid #99004f;
+    border-right-color: #99004f;
 }
 
 .WidgetSimple.Setting.IsLockedByMe,
 .Legend span.IsLockedByMe {
-    border-left: 5px solid #3ab5e4;
+    border-left-color: #3ab5e4;
 }
 
 .RTL .WidgetSimple.Setting.IsLockedByMe,
 .RTL .Legend span.IsLockedByMe {
-    border-right: 5px solid #3ab5e4;
+    border-right-color: #3ab5e4;
 }
 
 .WidgetSimple.Setting.IsLockedByMe input,
@@ -153,7 +153,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 }
 
 .WidgetSimple.Setting .SettingWrapper > .SettingDescription {
-    border-left: 1px solid #333;
+    border-left-color: #333;
 }
 
 .WidgetSimple .WidgetMenu {
@@ -163,7 +163,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 .WidgetSimple .WidgetMenu > a,
 .WidgetSimple .WidgetMenu > span {
     background: #333;
-    border: 1px solid #aaa;
+    border-color: #aaa;
     color: #aaa;
 }
 

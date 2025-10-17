@@ -13,7 +13,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 */
 
 /**
- * @package     Skin "Default"
+ * @package     Skin "OtoboDarkSkin"
  * @section     Application
  * @subsection  Admin
  */
@@ -25,7 +25,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
 
 .ItemListGrid > li {
-    border: 1px solid #333;
+    border-color: #333;
 }
 
 .ItemListGrid.WithIcons > li span.Title {
