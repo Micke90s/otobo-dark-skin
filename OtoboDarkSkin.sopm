@@ -3,7 +3,7 @@
   <Name>OtoboDarkSkin</Name>
   <Version>?</Version>
   <Framework Minimum='11.0.0'>11.x.x</Framework>
-  <Vendor></Vendor>
+  <Vendor>github.com/relkai</Vendor>
   <URL>https://github.com/relkai/otobo-dark-skin</URL>
   <License>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</License>
   <Description Lang="en">OTOBO Dark Skin</Description>
