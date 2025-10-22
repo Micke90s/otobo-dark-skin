@@ -13,7 +13,7 @@
     <!-- Configuration file -->
     <File Permission="660" Location="Kernel/Config/Files/XML/OtoboDarkSkin.xml" />
     <!-- Content files - CSS -->
-    <File Permission="660" Location="thirdparty/nvd3-1.7.1/nv.d3.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/thirdparty/nvd3-1.7.1/nv.d3.css" />
     <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Agent.Admin.ACL.css" />
     <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Agent.Admin.CommunicationLog.css" />
     <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Agent.Admin.css" />
@@ -43,7 +43,6 @@
     <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.TicketDetail.css" />
     <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Widget.css" />
     <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.WidgetMenu.css" />
-    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/DynamicFieldDB.css" />
     <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/FAQ.Agent.Default.css" />
     <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/FAQ.Agent.Detail.css" />
     <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Survey.Agent.Default.css" />         
