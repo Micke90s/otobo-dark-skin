@@ -13,7 +13,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 */
 
 /**
- * @package     Skin "Default"
+ * @package     Skin "OtoboDarkSkin"
  * @section     Default Settings
  */
 
@@ -57,10 +57,6 @@ a.SeeDetails i {
 
 #SurveyEmptyMessageSmall {
     border-color: #ddd;
-    border-image: none;
-    border-style: solid;
-    border-width: 1px;
-    padding: 7px;
     background-color: white;
 }
 

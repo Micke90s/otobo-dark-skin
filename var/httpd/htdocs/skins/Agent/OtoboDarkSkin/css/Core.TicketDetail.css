@@ -13,7 +13,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 */
 
 /**
- * @package     Skin "Default"
+ * @package     Skin "OtoboDarkSkin"
  * @section     TicketDetails
  */
 
@@ -75,10 +75,6 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 .ItemRow a {
     color: #c8c6c4;
-}
-
-.ItemRow a:hover {
-    color: #001bff;
 }
 
 /**
@@ -164,25 +160,6 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
     border-color: #eee;
 }
 
-.UseArticleColors #ArticleItems .NotVisibleForCustomer .ArticleMailContent iframe,
-.UseArticleColors #ArticleItems .NotVisibleForCustomer .ArticleMailContent .ArticleBody,
-.UseArticleColors #ArticleItems .NotVisibleForCustomer .ArticleMailContent .ArticleHTML,
-.UseArticleColors #ArticleItems .NotVisibleForCustomer .ArticleMailContent .ArticleMeta {
-    border-color: #FFCCCC;
-}
-
-.UseArticleColors .Incoming.NotVisibleForCustomer .ArticleMailContentHTMLWrapper:after,
-.UseArticleColors .Incoming.NotVisibleForCustomer .ArticleHTML:after,
-.UseArticleColors .Incoming.NotVisibleForCustomer .ArticleBody:after {
-    border-left-color: #ffcccc;
-}
-
-.UseArticleColors .Outgoing.NotVisibleForCustomer .ArticleMailContentHTMLWrapper:after,
-.UseArticleColors .Outgoing.NotVisibleForCustomer .ArticleHTML:after,
-.UseArticleColors .Outgoing.NotVisibleForCustomer .ArticleBody:after {
-    border-right-color: #ffcccc;
-}
-
 .UseArticleColors #ArticleItems .system .ArticleMailContent iframe,
 .UseArticleColors #ArticleItems .system .ArticleMailContent .ArticleBody,
 .UseArticleColors #ArticleItems .system .ArticleMailContent .ArticleHTML,
@@ -213,78 +190,14 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 /*
 * Agent article types
 */
-.UseArticleColors .agent-phone > td,
-.UseArticleColors .agent-phone .Header {
-    background: #d1e8d1 !important;
-}
-.UseArticleColors .agent-email-external > td,
-.UseArticleColors .agent-email-external .Header {
-    background: #D3E5B5 !important;
-}
-.UseArticleColors .agent-email-internal > td,
-.UseArticleColors .agent-email-internal .Header {
-    background: #ffd1d1 !important;
-}
-.UseArticleColors .agent-note-external > td,
-.UseArticleColors .agent-note-external .Header {
-    background: #d1d1d1 !important;
-}
-.UseArticleColors .agent-note-internal > td,
-.UseArticleColors .agent-note-internal .Header {
-    background: #FFCCCC !important;
-}
 
 /*
 * System article types
 */
-.UseArticleColors .system-note-internal > td,
-.UseArticleColors .system-note-internal .Header,
-.UseArticleColors .system-note-external > td,
-.UseArticleColors .system-note-external .Header,
-.UseArticleColors .system-note-report > td,
-.UseArticleColors .system-note-report .Header,
-.UseArticleColors .system-email-external > td,
-.UseArticleColors .system-email-external .Header,
-.UseArticleColors .system-email-internal > td,
-.UseArticleColors .system-email-internal .Header,
-.UseArticleColors .system-email-notification-int > td,
-.UseArticleColors .system-email-notification-int .Header,
-.UseArticleColors .system-email-notification-ext > td,
-.UseArticleColors .system-email-notification-ext .Header {
-    background: #ffffd1 !important;
-}
 
 /*
 * Customer artcle types
 */
-
-.UseArticleColors .customer-webrequest > td,
-.UseArticleColors .customer-webrequest .Header,
-.UseArticleColors .customer-email-external > td,
-.UseArticleColors .customer-email-external .Header,
-.UseArticleColors .customer-note-external > td,
-.UseArticleColors .customer-note-external .Header,
-.UseArticleColors .customer-phone > td,
-.UseArticleColors .customer-phone .Header {
-    background: #D4DEFC !important;
-}
-
-.UseArticleColors .agent-phone:hover > td,
-.UseArticleColors .agent-email-external:hover > td,
-.UseArticleColors .agent-email-internal:hover > td,
-.UseArticleColors .agent-note-external:hover > td,
-.UseArticleColors .agent-note-internal:hover > td,
-.UseArticleColors .system-note-internal:hover > td,
-.UseArticleColors .system-note-external:hover > td,
-.UseArticleColors .system-note-report:hover > td,
-.UseArticleColors .system-email-external:hover > td,
-.UseArticleColors .system-email-internal:hover > td,
-.UseArticleColors .customer-webrequest:hover > td,
-.UseArticleColors .customer-email-external:hover > td,
-.UseArticleColors .customer-note-external:hover > td,
-.UseArticleColors .customer-phone:hover > td {
-    background: #fffccc !important;
-}
 
 /**
  * @subsection  Timeline View
@@ -302,65 +215,12 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
     border-right-color: #aaa;
 }
 
-.TimelineView > ul > li {
-    background-color: #fff;
-    border-color: #ddd;
-}
-
-.TimelineView > ul:first-child > li.NoEvents {
-    background-color: #F5F5F5;
-}
-
-.TimelineView > ul > li h3 {
-    background: #fff;
-}
-
-.TimelineView > ul > li.NewTicket h3 {
-    background: #ddd;
-}
-
-.TimelineView > ul > li.Important h3 .fa-info-circle {
-    color: #777;
-}
-
 .TimelineView > ul > li.Important:hover h3 .fa-info-circle {
     color: #c8c6c4;
 }
 
-.TimelineView > ul > li h3 a {
-    color: #666;
-}
-
 .TimelineView > ul > li h3 a:hover {
     color: #c8c6c4;
-}
-
-.TimelineView > ul > li h3:after {
-    border-color: rgba(221, 221, 221, 0);
-    border-right-color: #ccc;
-}
-
-.TimelineView ul.ListLeft li h3:after {
-    border-left-color: #ddd;
-}
-
-.TimelineView > ul > li.Connected h3:after {
-    border-color: #ccc;
-}
-
-.TimelineView > ul > li h3 > span {
-    background-color: #aaa;
-}
-
-.TimelineView > ul > li h3 > span span {
-    background-color: #777;
-    color: #fff;
-}
-
-
-.TimelineView > ul > li h3 > span span:after {
-    border-color: rgba(119, 119, 119, 0);
-    border-top-color: #777;
 }
 
 .TimelineView > ul > li:hover h3 > span,
@@ -368,24 +228,8 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
     background-color: #c8c6c4;
 }
 
-.TimelineView li ul {
-    background-color: #f2f2f2;
-    border-top-color: #ddd;
-}
-
-.TimelineView li ul li.AttachmentsLink {
-    background: #ddd;
-    color: #555;
-}
-
 .TimelineView li ul li.AttachmentsLink:hover {
     color: #c8c6c4;
-}
-
-
-.TimelineView > ul > li.NewTicket:after {
-    border-color: rgba(136, 183, 213, 0);
-    border-bottom-color: #DDDDDD;
 }
 
 .TimelineView > ul > li.NewTicket h3 > span span {
@@ -402,47 +246,12 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 /* Define colors for different event types */
 
-.UseArticleColors .TimelineView .TypeIncoming h3 {
-    background-color: #fff;
-}
-
-.UseArticleColors .TimelineView .TypeIncoming h3:after {
-    border-right-color: #ddd;
-}
-
-.UseArticleColors .TimelineView .TypeTicketAction h3 {
-    background-color: #eee;
-    color: #555;
-}
-
-.UseArticleColors .TimelineView .TypeTicketAction {
-    background: #f7f7f7;
-}
-
-.UseArticleColors .TimelineView .TypeIncoming.SenderType_customer.ArticleType_email-internal h3 {
-    background-color: #fff;
-}
-
-.UseArticleColors .TimelineView .TypeIncoming.SenderType_customer.ArticleType_email-internal h3:after {
-    border-right-color: #ddd;
-}
-
 .UseArticleColors .TimelineView .TypeTicketAutoAction h3 {
-    background-color: #ffffd1;
     color: #c8c6c4;
-}
-
-.UseArticleColors .TimelineView ul.ListLeft .TypeTicketAutoAction h3:after {
-    border-left-color: #EAEAAF;
 }
 
 .UseArticleColors .TimelineView .TypeNoteInternal h3 {
-    background-color: #FFCCCC;
     color: #c8c6c4;
-}
-
-.UseArticleColors .TimelineView ul.ListLeft .TypeNoteInternal h3:after {
-    border-left-color: #EFB1B1;
 }
 
 .ArticleAttachments li {
@@ -464,10 +273,6 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 .ArticleAttachments li div a + a {
     border-top-color: #ccc;
-}
-
-@media only screen and (min-width: 0px) and (max-width: 1024px) {
-
 }
 
 } /* end @media */

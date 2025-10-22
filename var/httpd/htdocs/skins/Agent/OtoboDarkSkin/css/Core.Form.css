@@ -13,7 +13,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 */
 
 /**
- * @package     Skin "Default"
+ * @package     Skin "OtoboDarkSkin"
  * @section     Forms
  */
 
@@ -274,7 +274,7 @@ fieldset.TableLike > .Row > .Field label {
  *              makes the labels have a small fixed size
  */
 iframe.Signature {
-    border: 1px solid #888;
+    border-color: #888;
 }
 
 /**

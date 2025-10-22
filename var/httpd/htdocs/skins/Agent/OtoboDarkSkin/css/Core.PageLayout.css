@@ -13,7 +13,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 */
 
 /**
- * @package     Skin "Default"
+ * @package     Skin "OtoboDarkSkin"
  * @section     Grid
  */
 
@@ -72,7 +72,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 .ItemListGrid.WithIcons > li span.Icons i.Icon2 {
     background: #272727;
-    border: 1px solid #999;
+    border-color: #999;
 }
 
 .ItemListGrid > li span.Description {

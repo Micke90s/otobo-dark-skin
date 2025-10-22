@@ -13,7 +13,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 */
 
 /**
- * @package     Skin "Default"
+ * @package     Skin "OtoboDarkSkin"
  * @section     Widgets
  */
 
@@ -23,7 +23,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
  * @subsection  Widget Tablelike list
  */
 ul.Tablelike {
-    border: 1px solid #333;
+    border-color: #333;
 }
 
 ul.Tablelike li {
@@ -100,7 +100,7 @@ ul.Tablelike li.Header + li {
 }
 
 .WidgetNotice .Content {
-    border: 1px solid #F6AF2F;
+    border-color: #F6AF2F;
     color: #442A0B;
 }
 
@@ -124,7 +124,6 @@ ul.Tablelike li.Header + li {
 }
 
 .WidgetBox > .Content {
-    background: #ffffff;
     border-left-color: #C6C5C4;
     border-right-color: #C6C5C4;
     border-bottom-color: #C6C5C4;
@@ -155,14 +154,6 @@ ul.Tablelike li.Header + li {
     color: #777;
 }
 
-.WidgetTooltip {
-    background-color: #fff;
-}
-
-ul.WidgetTooltip {
-    background: rgba(216, 216, 216, 0.85);
-}
-
 ul.WidgetTooltip li {
     border-bottom-color: #ccc;
 }
@@ -184,7 +175,7 @@ ul.WidgetTooltip li a:hover i {
  */
 
 .ActionList li.Separated {
-    border-bottom: 1px solid #CCCCCC;
+    border-bottom-color: #CCCCCC;
 }
 
 .ActionList p {
@@ -203,7 +194,7 @@ ul.WidgetTooltip li a:hover i {
 }
 
 .CallForAction.Fullsize + .FieldExplanation {
-    border: 1px solid #ddd;
+    border-color: #ddd;
 }
 
 /**
@@ -218,10 +209,6 @@ ul.WidgetTooltip li a:hover i {
 
 .CallForAction:disabled span {
     color: rgba(31,31,31,0.5) !important;
-}
-
-.cke_dialog_footer_buttons td a.cke_dialog_ui_button span {
-    color: #fff;
 }
 
 .CallForAction span i {
@@ -307,55 +294,6 @@ ul.WidgetTooltip li a:hover i {
     border-color: #F4F4F4;
 }
 
-#ProgressBar li span a span {
-    color: #ABABAB;
-}
-
-#ProgressBar .Highlighted {
-    background-color: #fbb42c;
-    border-top-color: #9b6937;
-    border-bottom-color: #996634;
-}
-
-#ProgressBar li.Highlighted:first-child {
-    border-left-color: #9b6937;
-}
-
-#ProgressBar .Highlighted a {
-    color: #562900;
-    border-top-color: #ffeec8;
-    border-bottom-color: #eaa350;
-}
-
-#ProgressBar li:first-child.Highlighted a {
-    border-left-color: #f2bf5c;
-}
-
-#ProgressBar .Highlighted span a span {
-    color: #a14f00;
-    text-shadow: 0 1px 0 #f5b04e;
-}
-
-#ProgressBar .Active {
-    border-right-color: #9b6937;
-}
-
-#ProgressBar .Active a {
-    border-right-color: #f2bf5c;
-}
-
-#ProgressBar .Visited {
-    background-color: #DDD;
-}
-
-#ProgressBar .Visited.Active {
-    border-right-color: #CCC;
-}
-
-#ProgressBar .Visited.Active a {
-    border-right-color: #EEE;
-}
-
 /**
  * @subsection      Widget messages
  */
@@ -369,25 +307,6 @@ ul.WidgetTooltip li a:hover i {
 
 .WidgetSimple .WidgetMessage.Error {
     background: #b8384e;
-    color: rgba(255, 255, 255, 0.8);
-}
-
-.WidgetSimple .WidgetMessage.Warning {
-    background: #F7AE40;
-    border-color: #D18F2B;
-    color: #774a06;
-}
-
-.WidgetSimple .WidgetMessage.Success {
-    background: #6EB22A;
-    color: #fff;
-    border-color: #52891B;
-}
-
-.WidgetSimple .WidgetMessage.Notice {
-    background: #2A61AF;
-    color: #fff;
-    border-color: #15468C;
 }
 
 .WidgetSimple .WidgetMessage button {
@@ -408,10 +327,6 @@ ul.WidgetTooltip li a:hover i {
 
 .WidgetSimple .Overlay i {
     color: #777;
-}
-
-.WidgetSimple .Overlay i.fa-check {
-    color: #5BAD5B;
 }
 
 /**
@@ -438,20 +353,8 @@ ul.WidgetTooltip li a:hover i {
     color: #999;
 }
 
-.UserStatusIcon.Active i {
-    color: #0a0;
-}
-
 .UserStatusIcon.Offline i {
     color: #c8c6c4;
-}
-
-.UserStatusIcon.Unavailable i {
-    color: #d00;
-}
-
-.UserStatusIcon.Away i {
-    color: #fb0;
 }
 
 /**
@@ -470,25 +373,6 @@ ul.WidgetTooltip li a:hover i {
 .WidgetSimple.Tabs > .Header a:not(.Disabled):hover,
 .WidgetSimple.Tabs > .Header a:not(.Disabled):active  {
     background: #777;
-    color: #fff;
-}
-
-@keyframes ButtonHint {
-    from {
-        box-shadow: none;
-        }
-    to {
-        box-shadow: 0 0 10px green;
-    }
-}
-
-@keyframes ButtonError {
-    from {
-        box-shadow: none;
-        }
-    to {
-        box-shadow: 0 0 10px red;
-    }
 }
 
 } /* end @media */

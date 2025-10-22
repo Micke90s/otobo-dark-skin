@@ -13,7 +13,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 */
 
 /**
- * @package     Skin "Default"
+ * @package     Skin "OtoboDarkSkin"
  * @section     OverviewMedium
  */
 
@@ -58,7 +58,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 }
 
 .OverviewMedium li:last-child {
-    border-bottom: 1px solid #272727;
+    border-bottom-color: #272727;
 }
 
 .OverviewMedium li:nth-child(odd) div.Content {

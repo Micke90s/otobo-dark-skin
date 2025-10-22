@@ -13,7 +13,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 */
 
 /**
- * @package     Skin "Default"
+ * @package     Skin "OtoboDarkSkin"
  * @section     WidgetMenu
  */
 
@@ -31,10 +31,6 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 }
 
 .ControlRow a:hover {
-    color: #fff;
-}
-
-.ControlRow a.Active {
     color: #fff;
 }
 
@@ -57,12 +53,6 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 .ControlRow li:hover > a {
     color: #fff;
-}
-
-.ControlRow li.Active > a,
-.ControlRow li.Active:hover > a,
-.ControlRow li.Active:active > a {
-    color: #FFF;
 }
 
 /**

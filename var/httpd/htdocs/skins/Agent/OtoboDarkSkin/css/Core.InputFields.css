@@ -13,7 +13,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 */
 
 /**
- * @package     Skin "Default"
+ * @package     Skin "OtoboDarkSkin"
  * @section     Input Fields
  */
 
@@ -62,12 +62,12 @@ div.InputField_TreeContainer {
 }
 
 .ExpandToTop div.InputField_TreeContainer {
-    border-top: 1px solid #333;
+    border-top-color: #333;
 }
 
 div.InputField_ToolbarContainer {
     background-color: #1f1f1f;
-    border: 1px solid #333;
+    border-color: #333;
 }
 
 div.InputField_ToolbarContainer ul li a {
@@ -79,7 +79,7 @@ div.InputField_ToolbarContainer i {
 }
 
 div.InputField_ToolbarContainer ul li a:hover {
-    border-bottom: 2px solid #33321f;
+    border-bottom-color: #33321f;
 }
 
 .InputField_FiltersList {

@@ -55,23 +55,6 @@ The CSS-Variables cannot be used as the values are redefined on body level by se
  * @subsection  Fonts
  */
 
-#AjaxErrorDialogInner .Icon {
-    /*background: var(--colHighlight);*/
-    /*color: #fff;*/
-}
-
-#AjaxErrorDialogInner .CommunicationError .Icon {
-    /*background: #b8384e;*/
-}
-
-#AjaxErrorDialogInner .Icon.Green {
-    /*background: green;*/
-}
-
-#AjaxErrorDialogInner .FullErrorMessage {
-    /*color: red;*/
-}
-
 /**
  * @subsection  Loading Dialog
  */
@@ -164,22 +147,8 @@ h5 {
 /**
  * @subsection  Text
  */
-.Error {
-    /*color: var(--colTextErr);*/
-}
-
-.Warning {
-    /*color: var(--colTextWarn);*/
-    color: #f5af36;
-}
-
 .Notice {
-    /*color: var(--colTextDark);*/
     color: #c8c6c4;
-}
-
-.Confirmation {
-    /*color: #069d07;*/
 }
 
 /**
@@ -451,14 +420,6 @@ tbody tr:hover span.UnreadArticles i {
     color: #F6A72B;
 }
 
-span.ImportantArticles {
-    color: #ea2400;
-}
-
-span.ImportantArticles i {
-    color: #ea2400;
-}
-
 /**
  * @subsection  Charts
  */
@@ -477,7 +438,7 @@ span.ImportantArticles i {
 
 /* Vacation Days */
 td.Highlight a.ui-state-default {
-    border: 1px solid #3ab5e4;
+    border-color: #3ab5e4;
     background: #3ab5e4 !important;
     background: -moz-linear-gradient(top,  #2c8bb0 0%, #3ab5e4 100%) !important;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2c8bb0), color-stop(100%,#3ab5e4)) !important;
@@ -652,92 +613,6 @@ body > div.MetaFloater > div.NoPreview i {
 }
 
 /**
- * @subsection  CKEditor Notifications
- */
-
-/*
-Copyright (c) 2003-2015, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.md or http://ckeditor.com/license
-*/
-
-/**
- * Progress notification structure:
- *
- * +---div.cke_notification cke_notification_info--------------------------+
- * |                                                                       |
- * | +---div.cke_notification_progress-----------------------------------+ |
- * | |                                                                   | |
- * | +-------------------------------------------------------------------+ |
- * |                                                                       |
- * | +---p.cke_notification_message--------------------------------------+ |
- * | | Foo                                                               | |
- * | +-------------------------------------------------------------------+ |
- * |                                                                       |
- * | +---a.cke_notification_close----------------------------------------+ |
- * | | +---span.cke_label----------------------------------------------+ | |
- * | | | X                                                             | | |
- * | | +---------------------------------------------------------------+ | |
- * | +-------------------------------------------------------------------+ |
- * |                                                                       |
- * +-----------------------------------------------------------------------+
- *
- *
- * Warning notification structure:
- *
- * +---div.cke_notification cke_notification_warning-----------------------+
- * |                                                                       |
- * | +---p.cke_notification_message--------------------------------------+ |
- * | | Foo                                                               | |
- * | +-------------------------------------------------------------------+ |
- * |                                                                       |
- * | +---a.cke_notification_close----------------------------------------+ |
- * | | +---span.cke_label----------------------------------------------+ | |
- * | | | X                                                             | | |
- * | | +---------------------------------------------------------------+ | |
- * | +-------------------------------------------------------------------+ |
- * |                                                                       |
- * +-----------------------------------------------------------------------+
- *
- * Success and info notifications have the same structure as warning, but use
- * `cke_notification_success` and `cke_notification_info` instead of `cke_notification_warning`.
- */
-
-.cke_notification {
-    color: white;
-}
-
-.cke_notification_message a {
-    color: #12306F;
-}
-
-.cke_notification_success {
-    background: #72B572;
-    border: 1px solid #63A563;
-}
-
-.cke_notification_warning {
-    background: #C83939;
-    border: 1px solid #902B2B;
-}
-
-.cke_notification_info {
-    background: #2E9AD0;
-    border: 1px solid #0F74A8;
-}
-
-.cke_notification_info span.cke_notification_progress {
-    background-color: #0F74A8;
-}
-
-.cke_notification_message {
-    color: #fff;
-}
-
-.cke_notification_close:after {
-    color: #fff;
-}
-
-/**
  * @subsection AJAX Loader
  */
 
@@ -747,27 +622,6 @@ For licensing, see LICENSE.md or http://ckeditor.com/license
 .OverviewControl.Loading .ControlRow:after {
     color: #777;
 }
-
-/* Scrollbar */
-/* width */
-/* Track */
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #444;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-
-/* iFrame Background */
-iframe {
-    border-color: #fff;
-    background-color: #fff !important;
-}
-
 }
 
 /*
@@ -785,11 +639,6 @@ iframe {
      */
 
     /* Filters */
-
-    .TableFilterContainer {
-        position: relative;
-    }
-
     .TableFilterContainer .FilterRemove {
         color: #555;
     }
