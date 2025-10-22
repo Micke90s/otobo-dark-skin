@@ -201,6 +201,10 @@ form label.Mandatory {
     box-shadow: inset 1px 1px 5px #000;
 }
 
+.CustomerContainer .CustomerTicketText.MainCustomer {
+    background-color: #141414;
+}
+
 .CustomerContainer .BoxLabel,
 .CcCustomerContainer .BoxLabel,
 .BccCustomerContainer .BoxLabel {

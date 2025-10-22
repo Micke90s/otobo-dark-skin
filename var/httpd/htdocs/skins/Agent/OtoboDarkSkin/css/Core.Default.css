@@ -479,12 +479,12 @@ td.Highlight a.ui-state-default {
  * @subsection global message format
  */
 .ArticleBody {
-    background: #FFF;
+    background: #ccc;
     color: #141414;
 }
 
 .ArticleHTML {
-    background: #FFF;
+    background: #ccc;
 }
 
 /**
@@ -652,4 +652,14 @@ body > div.MetaFloater > div.NoPreview i {
     .fa {
         color: #c8c6c4;
     }
+}
+
+/**
+ * @subsection CKEditor 
+   Path: /var/httpd/htdocs/common/css/ckeditor5-44.1.0-editor.css
+ */
+
+.ck.ck-editor__main>.ck-editor__editable {
+    background: #ccc !important;
+    color: #000;
 }
