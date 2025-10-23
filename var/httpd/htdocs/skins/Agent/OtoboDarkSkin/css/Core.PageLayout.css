@@ -1,0 +1,82 @@
+/* OTOBO is a web-based ticketing system for service organisations.
+
+https://github.com/relkai/otobo-dark-skin
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+*/
+
+/**
+ * @package     Skin "OtoboDarkSkin"
+ * @section     Grid
+ */
+
+@media screen,projection,tv,handheld {
+
+/**
+ * @subsection  LayoutFixedSidebar
+ */
+
+/**
+ * @subsection   LayoutGrid
+ */
+
+/**
+ * @subsection  LayoutPopup
+ */
+.LayoutPopup > .Header {
+    background-color: #141414;
+}
+
+.LayoutPopup > .Content {
+    background-color: #141414;
+}
+
+/**
+ * @subsection  ItemListGrid
+ */
+
+ .ItemListGrid > li > a {
+    background: #272727;
+    border-color: #555;
+}
+
+.ItemListGrid > li > a:not(.Disabled):hover,
+.ItemListGrid > li > a:not(.Disabled):active,
+.ItemListGrid > li > a:not(.Disabled):focus,
+.ItemListGrid > li > a.Active {
+    background: #333;
+    border-color: #999;
+}
+
+.ItemListGrid > li span.Icons {
+    border-color: #999;
+}
+
+.ItemListGrid.WithIcons > li a:not(.Disabled):hover span.Icons,
+.ItemListGrid.WithIcons > li a.Active span.Icons,
+.ItemListGrid.WithIcons > li a:not(.Disabled):hover span.Icons i.Icon2,
+.ItemListGrid.WithIcons > li a.Active span.Icons i.Icon2 {
+    background: #444;
+}
+
+.ItemListGrid.WithIcons > li span.Icons i {
+    color: #999;
+}
+
+.ItemListGrid.WithIcons > li span.Icons i.Icon2 {
+    background: #272727;
+    border-color: #999;
+}
+
+.ItemListGrid > li span.Description {
+    color: #c8c6c4;
+}
+
+} /* end @media */

@@ -1,0 +1,40 @@
+/* OTOBO is a web-based ticketing system for service organisations.
+
+https://github.com/relkai/otobo-dark-skin
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+*/
+
+/**
+ * @package     Skin "OtoboDarkSkin"
+ * @section     Application
+ * @subsection  Admin
+ */
+
+@media screen,projection,tv,handheld {
+
+/**
+ * @subsubsection     General
+ */
+
+.ItemListGrid > li.IsFavourite > a {
+    box-shadow: 0px 0px 3px #3ab5e4; 
+    border-color: #3ab5e4; 
+}
+
+.ItemListGrid > li > a > .Favourite {
+    color: #ccc;
+}
+
+.ItemListGrid > li > a:hover > .Favourite:hover .fa {
+    color: #999;
+}
+
+} /* end @media print*/

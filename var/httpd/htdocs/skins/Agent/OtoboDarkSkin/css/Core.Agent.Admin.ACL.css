@@ -1,0 +1,84 @@
+/* OTOBO is a web-based ticketing system for service organisations.
+
+https://github.com/relkai/otobo-dark-skin
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+*/
+
+/**
+ * @package     Skin "OtoboDarkSkin"
+ * @section     Application
+ * @subsection  ACL Administration
+ */
+
+@media screen,projection,tv,handheld {
+
+.WidgetSimple fieldset.Separated {
+    background-color: #1f1f1f;
+    border-color: #333;
+}
+
+.ACLStructure {
+    border-bottom-color: #333;
+}
+
+.ACLFields > p {
+    border-bottom-color: #333;
+}
+
+.ACLFields > p a {
+    color: #c8c6c4;
+}
+
+.AddAll {
+    background-color: #444;
+}
+
+.AddAll:hover {
+    background-color: #555;
+}
+
+.ACLFieldGroup li ul li ul li ul li.DataItem,
+.ACLFieldGroup .LastLevel li.DataItem {
+    background-color: #333;
+}
+
+.ACLFieldGroup li ul li ul li ul li em,
+.ACLFieldGroup .LastLevel li em {
+    background-color: #444;
+}
+
+.ACLFieldGroup li ul li ul li ul li em:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+.Icon.Add {
+    background: url(../img/filter_add.png) no-repeat center;
+}
+
+.Icon.Add.AddDataItem:hover {
+    background: url(../img/filter_add_hover.png) no-repeat center;
+}
+
+.Icon.Remove {
+    background: url(../img/filter_remove.png) no-repeat center;
+}
+
+.Icon.Remove:hover {
+    background: url(../img/filter_remove_hover.png) no-repeat center;
+}
+
+.ACLNote {
+    background: #000;
+    border-color: #333;
+}
+
+}

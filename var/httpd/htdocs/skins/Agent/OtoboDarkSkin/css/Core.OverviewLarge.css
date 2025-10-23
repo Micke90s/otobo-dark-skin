@@ -1,0 +1,137 @@
+/* OTOBO is a web-based ticketing system for service organisations.
+
+https://github.com/relkai/otobo-dark-skin
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+*/
+
+/**
+ * @package     Skin "OtoboDarkSkin"
+ * @section     OverviewLarge
+ */
+
+@media screen,projection,tv,handheld {
+
+/**
+ * @subsection  Large View Overview
+ */
+
+#EmptyMessageLarge {
+   border-color: #272727;
+}
+
+.OverviewLarge > li {
+    border-bottom-color: #272727;
+    border-left-color: #272727;
+    border-right-color: #272727;
+}
+
+.OverviewLarge > li:first-child {
+    border-top-color: #272727;
+}
+
+.OverviewLarge > li ul.InlineActions {
+    background-color: #141414;
+}
+
+.OverviewLarge > li ul.InlineActions li a {
+    color: #c8c6c4;
+}
+
+.OverviewLarge .Content {
+    border-left-color: #1f1f1f;
+}
+
+.OverviewLarge > li:hover > .Content,
+.OverviewLarge > li:hover {
+    border-left-color: #F6A72B !important;
+}
+
+.OverviewLarge > li:last-child {
+    border-bottom-color: #272727;
+}
+
+.OverviewLarge > li:nth-child(odd) .Content.ShowInlineActions {
+    background-color: #1f1f1f;
+}
+
+.OverviewLarge > li:nth-child(even) {
+    background-color: #242424;
+}
+
+.OverviewLarge > li:nth-child(even) .Content {
+    border-left-color: #242424;
+}
+
+.OverviewLarge div.Flag {
+    border-color: #272727;
+}
+
+.OverviewLarge h2 a {
+    color: #c8c6c4;
+}
+
+.OverviewLarge .Infos table tr.Middle {
+    border-top-color: #272727;
+}
+
+.OverviewLarge .Infos table td {
+    border-left-color: #272727;
+}
+
+.OverviewLarge .Infos table td label {
+    color: #999;
+}
+
+.OverviewLarge .ItemActions {
+    background: #1f1f1f;
+    border-bottom-color: #272727;
+}
+
+.OverviewLarge .Preview > ul {
+    background-color: #1f1f1f;
+    border-color: #272727;
+}
+
+.OverviewLarge .Preview h3 {
+    background: #333;
+    border-color: #242424;
+}
+
+.OverviewLarge .Preview li.Active h3 {
+    background: #333;
+    border-color: #333;
+}
+
+.OverviewLarge .Preview h3 a {
+    color: #777;
+}
+
+.OverviewLarge li:hover .Preview h3 a {
+    color: #659ac6;
+}
+
+.OverviewLarge .Preview li.Active h3 a {
+    color: #777;
+}
+
+.OverviewLarge li:hover .Preview li.Active h3 a {
+    color: #659ac6;
+}
+
+.OverviewLarge .Preview h3 .Subject {
+    color: #c8c6c4;
+}
+
+.OverviewLarge .Preview li div.HiddenBlock {
+    border-right-color: #272727;
+}
+
+} /* end @media */

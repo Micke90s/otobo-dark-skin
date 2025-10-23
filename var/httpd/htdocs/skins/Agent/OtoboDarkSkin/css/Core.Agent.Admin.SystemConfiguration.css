@@ -1,0 +1,210 @@
+/* OTOBO is a web-based ticketing system for service organisations.
+
+https://github.com/relkai/otobo-dark-skin
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+*/
+
+/**
+ * @package     Skin "OtoboDarkSkin"
+ * @section     Application
+ * @subsection  Admin
+ */
+
+@media screen,projection,tv,handheld {
+
+/**
+ * @subsection      Getting Started
+ */
+
+.GettingStarted li {
+    border-color: #555;
+    background: #333;
+}
+
+.GettingStarted li i {
+    text-shadow: 1px 1px 2px #222;
+}
+
+.GettingStarted li p {
+    color: #aaa;
+    text-shadow: 1px 1px 2px #222;
+}
+
+.GettingStarted li p a {
+    color: #aaa;
+}
+
+.GettingStarted li p a:hover {
+    color: #c8c6c4;
+}
+
+/**
+ * @subsection      General
+ */
+
+#ConfigTree .jstree-hovered:not(.jstree-disabled),
+#ConfigTree .jstree-wholerow-hovered:not(.jstree-disabled) {
+    background: #333 !important;
+}
+
+/**
+ * @subsection      Search
+ */
+
+/**
+ * @subsection      Settings
+ */
+
+/**
+ * @subsubsection     Dialogs: General
+ */
+
+.Dialog .Overlay {
+    background: #000;
+}
+
+/**
+ * @subsubsection     Deployment
+ */
+
+.TableLike.DeploymentData label {
+    color: #c8c6c4;
+}
+
+/**
+ * @subsubsection     Widgets
+ */
+
+.WidgetSimple.Setting input,
+.WidgetSimple.Setting textarea {
+    background: #141414;
+}
+
+.WidgetSimple.Setting.IsDirty,
+.Legend span.IsDirty {
+    border-left-color: #448044;
+}
+
+.RTL .WidgetSimple.Setting.IsDirty,
+.RTL .Legend span.IsDirty {
+    border-right-color: #448044;
+}
+
+.WidgetSimple.Setting.IsLockedByAnotherUser,
+.Legend span.IsLockedByAnotherUser {
+    border-left-color: #99004f;
+}
+
+.RTL .WidgetSimple.Setting.IsLockedByAnotherUser,
+.RTL .Legend span.IsLockedByAnotherUser {
+    border-right-color: #99004f;
+}
+
+.WidgetSimple.Setting.IsLockedByMe,
+.Legend span.IsLockedByMe {
+    border-left-color: #3ab5e4;
+}
+
+.RTL .WidgetSimple.Setting.IsLockedByMe,
+.RTL .Legend span.IsLockedByMe {
+    border-right-color: #3ab5e4;
+}
+
+.WidgetSimple.Setting.IsLockedByMe input,
+.WidgetSimple.Setting.IsLockedByMe textarea {
+    background-color: #141414;
+}
+
+.WidgetSimple.Setting .Header .HeaderMessage a:hover {
+    color: #c8c6c4;
+}
+
+.WidgetSimple.Setting .Content .SettingUpdateBox {
+    background-color: #1f1f1f;
+}
+
+.WidgetSimple.Setting .SettingEdit,
+.WidgetSimple.Setting .SettingEnable {
+    background: repeating-linear-gradient(
+        -45deg,
+        rgba(51, 51, 51, 0.5),
+        rgba(51, 51, 51, 0.5) 10px,
+        rgba(85, 85, 85, 0.5) 10px,
+        rgba(85, 85, 85, 0.5) 20px
+    );
+}
+
+.WidgetSimple.Setting:not(.IsLockedByMe):not(.MenuExpanded) .SettingContainer > fieldset:before {
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(51,51,51,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(51,51,51,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(51,51,51,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.WidgetSimple.Setting .SettingWrapper > fieldset {
+    color: #999;
+}
+
+.WidgetSimple.Setting .SettingWrapper > .SettingDescription {
+    border-left-color: #333;
+}
+
+.WidgetSimple .WidgetMenu {
+    background: #292929;
+}
+
+.WidgetSimple .WidgetMenu > a,
+.WidgetSimple .WidgetMenu > span {
+    background: #333;
+    border-color: #aaa;
+    color: #aaa;
+}
+
+.WidgetSimple .WidgetMenu > a:focus,
+.WidgetSimple .WidgetMenu > span:focus {
+    border-color: #c8c6c4;
+    color: #c8c6c4;
+}
+
+.WidgetSimple .WidgetMenu > a:hover,
+.WidgetSimple .WidgetMenu > span:hover {
+    background: #4a4a4a;
+    border-color: #c8c6c4;
+}
+
+.WidgetSimple p.WidgetInformation {
+    color: #999;
+    background: #1f1f1f;
+}
+
+.WidgetSimple p.WidgetInformation i {
+    background: #141414;
+    color: #999;
+    box-shadow: 1px 1px 1px #333;
+}
+
+/**
+ * @subsubsection     Setting Types
+ */
+
+.SettingContent input[type=text],
+.SettingContent input[type=password],
+.SettingContent .InputField_Search,
+.Setting input.Key {
+    color: #c8c6c4;
+}
+
+/* Sidebar */
+
+/* Widget Menu */
+
+/* Responsive */
+
+} /* end @media */

@@ -1,0 +1,129 @@
+/* OTOBO is a web-based ticketing system for service organisations.
+
+https://github.com/relkai/otobo-dark-skin
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+*/
+
+/**
+ * @package     Skin "OtoboDarkSkin"
+ * @section     Input Fields
+ */
+
+@media screen,projection,tv,handheld {
+
+/**
+ * @subsection  General
+ */
+
+.InputField_Search[readonly=readonly]:focus {
+    border-color: #333;
+}
+
+.InputField_Search[readonly=readonly].Error:focus {
+    border-color: #ff505e;
+}
+
+#Header div.InputField_Container {
+    color: #c8c6c4;
+}
+
+a.InputField_Action {
+    color: #c8c6c4;
+}
+
+a.InputField_Action:hover {
+    color: #33321f;
+}
+
+div.InputField_Selection div.Text {
+    background: #333;
+}
+
+div.InputField_Selection div.Remove {
+    background: #555;
+    color: #fff;
+}
+
+.AlreadyDisabled div.InputField_Selection div.Text {
+    background: #141414;
+}
+
+div.InputField_TreeContainer {
+    background-color: #1f1f1f;
+    border-color: #333;
+}
+
+.ExpandToTop div.InputField_TreeContainer {
+    border-top-color: #333;
+}
+
+div.InputField_ToolbarContainer {
+    background-color: #1f1f1f;
+    border-color: #333;
+}
+
+div.InputField_ToolbarContainer ul li a {
+    color: #c8c6c4;
+}
+
+div.InputField_ToolbarContainer i {
+    color: #c8c6c4;
+}
+
+div.InputField_ToolbarContainer ul li a:hover {
+    border-bottom-color: #33321f;
+}
+
+.InputField_FiltersList {
+    background: #141414;
+}
+
+/**
+ * @subsection  jsTree theme
+ */
+.jstree-InputField .jstree-anchor {
+    color: #c8c6c4;
+}
+
+.jstree-InputField .jstree-wholerow-ul .jstree-wholerow-clicked {
+    background-color: #333;
+}
+
+.jstree-InputField .jstree-wholerow-ul .jstree-wholerow:hover,
+.jstree-InputField .jstree-wholerow-ul .jstree-wholerow-hovered,
+.jstree-InputField .jstree-focused > .jstree-wholerow {
+    background-color: #555;
+}
+
+.jstree-InputField .jstree-wholerow-ul .jstree-wholerow-clicked:hover,
+.jstree-InputField .jstree-wholerow-ul .jstree-wholerow-clicked.jstree-wholerow-hovered,
+.jstree-InputField .jstree-focused > .jstree-wholerow-clicked {
+    background-color: #666;
+}
+
+.jstree-InputField .Disabled > .jstree-wholerow:hover,
+.jstree-InputField .Disabled > .jstree-wholerow-hovered {
+    background-color: #1f1f1f;
+}
+
+/**
+ * @subsection  jsTree theme - Tree variant
+ */
+ .jstree-InputField-Tree .jstree-node,
+.jstree-InputField-Tree .jstree-icon {
+    background-image: url('../img/inputfield_tree.png');
+}
+
+/**
+ * @subsection  jsTree theme - No Tree variant
+ */
+
+} /* end @media */

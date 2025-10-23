@@ -1,0 +1,103 @@
+/********************
+ * TOOLTIP CSS
+ */
+
+.nvtooltip {
+  background-color: rgba(20,20,20,1.0);
+}
+
+.nvtooltip h3 {
+  background-color: rgba(31,31,31,0.75);
+}
+
+.nvd3 text {
+  fill: #c8c6c4;
+}
+
+.nvd3 .nv-background {
+  fill: #1f1f1f;
+}
+
+/**********
+*  Axes
+*/
+
+.nvd3 .nv-axis path {
+  fill: none;
+  stroke: #c8c6c4;
+}
+
+.nvd3 .nv-axis line {
+  fill: none;
+  stroke: #444;
+}
+
+/**********
+*  Bars
+*/
+
+.nvd3 .nv-bars text {
+  fill: rgba(200, 198, 196, 0);
+}
+
+.nvd3 .nv-bars .hover text {
+  fill: rgba(200, 198, 196, 1);
+}
+
+/**********
+*  Bars
+*/
+
+.nvd3 .nv-discretebar .nv-groups text,
+.nvd3 .nv-multibarHorizontal .nv-groups text {
+  fill: rgba(200, 198, 196, 1);
+  stroke: rgba(200, 198, 196, 0);
+}
+
+/***********
+*  Pie Chart
+*/
+
+.nvd3.nv-pie .nv-slice text {
+  stroke: #c8c6c4;
+}
+
+.nvd3.nv-pie path {
+  stroke: #1f1f1f;
+}
+
+/**********
+* Lines
+*/
+
+.nvd3 .nv-point-paths path {
+  fill: #c8c6c4;
+}
+
+/**********
+* historical stock
+*/
+
+.nvd3 .nv-brushBackground rect {
+  fill: #1f1f1f;
+}
+
+/**********
+* Parallel Coordinates
+*/
+
+.nvd3 .background path {
+  stroke: #1f1f1f;
+}
+
+.nvd3 .brush .extent {
+  stroke: #1f1f1f;
+}
+
+.nvd3 .axis line, .axis path {
+  stroke: #c8c6c4;
+}
+
+.nvd3 .axis text {
+  text-shadow: 0 1px 0 #c8c6c4;
+}

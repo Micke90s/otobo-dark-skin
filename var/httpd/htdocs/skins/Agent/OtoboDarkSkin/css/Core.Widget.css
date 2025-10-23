@@ -1,0 +1,378 @@
+/* OTOBO is a web-based ticketing system for service organisations.
+
+https://github.com/relkai/otobo-dark-skin
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+*/
+
+/**
+ * @package     Skin "OtoboDarkSkin"
+ * @section     Widgets
+ */
+
+@media screen,projection,tv,handheld {
+
+/**
+ * @subsection  Widget Tablelike list
+ */
+ul.Tablelike {
+    border-color: #333;
+}
+
+ul.Tablelike li {
+    background-color: #1f1f1f;
+}
+
+ul.Tablelike li:nth-child(even) {
+    background-color: #292929;
+}
+
+ul.Tablelike li:hover {
+    background: #33321f;
+}
+
+ul.Tablelike li:hover a {
+    color: #c8c6c4;
+}
+
+ul.Tablelike li.Header {
+    color: #dbd9d7;
+    background: #333;
+    border-top-color: #333;
+}
+
+ul.Tablelike li.Header + li {
+    border-top-color: #333;
+}
+
+/**
+ * @subsection  WidgetSimple
+ */
+
+.WidgetSimple {
+    background: #1f1f1f;
+}
+
+.WidgetSimple .WidgetSimple {
+    background: #333;
+    border-color: #333;
+}
+
+.WidgetSimple .WidgetSimple .WidgetSimple {
+    background: #f5f5f5;
+}
+
+.WidgetSimple > .Header h2,
+.WidgetSimple > .Header h3 {
+    text-shadow: 1px 1px #000;
+    color: #c8c6c4;
+}
+
+.WidgetSimple .Buttons {
+    border-top-color: #333;
+}
+
+/* Legend & Shortcuts */
+
+.WidgetSimple .Legend li,
+.WidgetSimple .ShortCuts li {
+    color: #999;
+}
+
+.WidgetSimple .ShortCuts li span {
+    border-color: #ccc;
+    color: #c8c6c4;
+}
+
+/**
+ * @subsection Widgets as notices
+ */
+
+.WidgetNotice {
+    background-color: #F39C19
+}
+
+.WidgetNotice .Content {
+    border-color: #F6AF2F;
+    color: #442A0B;
+}
+
+/**
+ * @subsection AJAX Loader
+ */
+
+.WidgetIsLoading {
+    color: #777;
+    border-color: #bbb;
+}
+
+/**
+ * @subsection  WidgetBox
+ */
+.WidgetBox > .Header h2 + h3 {
+    background-color: #EEE;
+    border-top-color: #FFF;
+    border-bottom-color: #BBB;
+    color: #333;
+}
+
+.WidgetBox > .Content {
+    border-left-color: #C6C5C4;
+    border-right-color: #C6C5C4;
+    border-bottom-color: #C6C5C4;
+}
+
+/**
+ * @subaction   ActionMenu
+ */
+
+.RTL .ActionMenu {
+    border-right-color: #DDD;
+}
+
+/**
+ * @subsection  WidgetActions
+ */
+
+.WidgetAction.WithText a {
+    color: #999;
+}
+
+.WidgetAction.Toggle i {
+    color: #c8c6c4 !important;
+}
+
+/* Settings */
+.WidgetAction i {
+    color: #777;
+}
+
+ul.WidgetTooltip li {
+    border-bottom-color: #ccc;
+}
+
+ul.WidgetTooltip li i {
+    color: #aaa !important;
+}
+
+ul.WidgetTooltip li a {
+    color: #333;
+}
+
+ul.WidgetTooltip li a:hover i {
+    color: #333 !important;
+}
+
+/**
+ * @subsection      Call for action buttons and search form
+ */
+
+.ActionList li.Separated {
+    border-bottom-color: #CCCCCC;
+}
+
+.ActionList p {
+    color: #888;
+}
+
+.CallForAction,
+.cke_dialog_footer_buttons a.cke_dialog_ui_button {
+    color: #c8c6c4;
+    border-color: #444;
+    background-color: #444;
+}
+
+.cke_dialog_footer_buttons a.cke_dialog_ui_button:hover {
+    background-color: #0000fc;
+}
+
+.CallForAction.Fullsize + .FieldExplanation {
+    border-color: #ddd;
+}
+
+/**
+ * @css-for     Firefox
+ * @note        bug: button containing an element has an hidden padding
+ */
+.CallForAction:hover,
+.CallForAction:focus {
+    color: #3ab5e4;
+    border-color: #aaa;
+}
+
+.CallForAction:disabled span {
+    color: rgba(31,31,31,0.5) !important;
+}
+
+.CallForAction span i {
+    color: #3ab5e4 !important;
+}
+
+.CallForAction:active,
+.CallForAction:hover,
+.CallForAction:focus {
+    background-color: #555;
+    border-color: #555;
+    color: #c4c6c8;
+}
+
+.CallForAction.Disabled {
+    background: #141414 !important;
+    border-color: #1f1f1f !important;
+    border-bottom-color: #1f1f1f !important;
+    color: #c4cdfa !important;
+}
+
+.CallForAction.Disabled > span i {
+    color: #555 !important;
+}
+
+.CallForAction.Disabled, .CallForAction.Disabled span {
+    color: #999;
+}
+
+.SearchBox input[type='text'] {
+    border-color: #999;
+}
+
+.RTL .SearchBox input[type='text']{
+    border-right-color: #999;
+}
+
+.SearchBox input:focus {
+    border-color: #666;
+}
+.RTL .SearchBox input:focus {
+    border-color: #666;
+}
+
+.SearchBox button {
+    color: #333;
+    background: #333;
+}
+
+.RTL .SearchBox button {
+    border-right-color: #888;
+}
+
+.SearchBox button:hover {
+    border-color: #696969;
+}
+
+.SearchBox button:active {
+    background: #e4e4e4;
+}
+
+/**
+ * @subsection      Drag and Drop
+ */
+.DropPlaceholder {
+    border-color: #DDD;
+}
+
+/**
+ * @subsection      ProgressBar
+ */
+
+
+/* Because of the minimum screen resolution of 1024px more than 7 elements are not possible at the moment */
+
+#ProgressBar li {
+    border-color: #CCC;
+    background-color: #EEE;
+}
+
+#ProgressBar li a {
+    color: #484848;
+    border-color: #F4F4F4;
+}
+
+/**
+ * @subsection      Widget messages
+ */
+
+.WidgetSimple .WidgetMessage {
+    background: #eee;
+    border-top-color: #ddd;
+    border-bottom-color: #ddd;
+    color: #555;
+}
+
+.WidgetSimple .WidgetMessage.Error {
+    background: #b8384e;
+}
+
+.WidgetSimple .WidgetMessage button {
+    background: #eee;
+    border-color: #aaa;
+}
+
+.WidgetSimple .WidgetMessage button:hover {
+    background: #ddd;
+}
+
+/**
+ * @subsection      Overlays
+ */
+.WidgetSimple .Overlay {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.WidgetSimple .Overlay i {
+    color: #777;
+}
+
+/**
+ * @subsection      Icon colors
+ */
+
+.CallForAction span i.fa-plus-square {
+    color: #1f1f1f;
+}
+
+.CallForAction span i.fa-rocket {
+    color: #1f1f1f;
+}
+.CallForAction span i.fa-download,
+.CallForAction span i.fa-upload {
+    color: #1f1f1f;
+}
+
+/**
+ * @subsection      Chat icons
+ */
+
+.UserChatIcons i {
+    color: #999;
+}
+
+.UserStatusIcon.Offline i {
+    color: #c8c6c4;
+}
+
+/**
+ * @subsection      Tabs
+ */
+.WidgetSimple.Tabs > .Header a {
+    color: #333;
+}
+
+.WidgetSimple.Tabs > .Header a.Disabled {
+    color: #999;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.WidgetSimple.Tabs > .Header a:not(.Disabled).Active,
+.WidgetSimple.Tabs > .Header a:not(.Disabled):hover,
+.WidgetSimple.Tabs > .Header a:not(.Disabled):active  {
+    background: #777;
+}
+
+} /* end @media */

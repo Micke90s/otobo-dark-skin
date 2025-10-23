@@ -1,0 +1,172 @@
+/* OTOBO is a web-based ticketing system for service organisations.
+
+https://github.com/relkai/otobo-dark-skin
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+*/
+
+/**
+ * @package     Skin "OtoboDarkSkin"
+ * @section     WidgetMenu
+ */
+
+@media screen,projection,tv,handheld {
+
+/**
+ * @subsection  Control Row
+ */
+.ControlRow {
+    background-color: #333;
+}
+
+.ControlRow a {
+    color: #c8c6c4;
+}
+
+.ControlRow a:hover {
+    color: #fff;
+}
+
+/**
+ * @subsection  Control Row Tabs
+ */
+.ControlRow li:hover {
+    background: #444;
+}
+
+.ControlRow li.Active,
+.ControlRow li.Active:hover,
+.ControlRow li.Active:active {
+    background: #5D5D5D;
+}
+
+.ControlRow li > a {
+    color: #c8c6c4;
+}
+
+.ControlRow li:hover > a {
+    color: #fff;
+}
+
+/**
+ * @subsection  Context Functions
+ */
+
+/**
+ * @subsection  Control Row Headline
+ */
+.ControlRow h2 {
+    color: #c8c6c4;
+    text-shadow: 0 1px 0 #000;
+}
+
+/**
+ * @subsection  Control Row Additional Information
+ */
+
+/**
+ * @subsection  Control Row Action Row
+ */
+.ActionRow {
+    background: #1f1f1f;
+}
+
+.Actions li:after {
+    color: #BBBBBB;
+}
+
+.Actions li a,
+.Actions li span {
+    color: #c8c6c4;
+}
+
+.Actions li a:hover,
+.Actions li span:hover,
+.OverviewZoom a:hover {
+    border-color: #bfbfce;
+}
+
+.Actions li.Inactive a {
+    color: #999;
+    text-shadow: 1px 1px #000;
+}
+
+.Tab.Actions li:after {
+    color: #bbb;
+}
+
+.Tab.Actions li a {
+    color: #999;
+}
+
+.Tab.Actions li a:hover {
+    color: #c8c6c4;
+}
+
+.Tab.Actions li.Selected a {
+    color: #dbd9d7;
+}
+
+/**
+ * @subsection  LightRow
+ */
+
+.LightRow.Header {
+    background: #ddd;
+}
+
+.Collapsed .LightRow.Header {
+    border-bottom-color: #C6C5C4;
+}
+
+.LightRow.Bottom {
+    background: #1f1f1f;
+    border-bottom-color: #1f1f1f;
+}
+
+.LightRow h2 {
+    color: #171717;
+}
+
+.Collapsed .LightRow.Header {
+    -webkit-box-shadow: 0 -1px 0 #DDD inset;
+    box-shadow: 0 -1px 0 #DDD inset;
+    border-bottom-color: #AAA;
+}
+
+/**
+ * @subsection  Filter settings
+ */
+
+/*
+ * @subsection  Dashboard Ticket Filter
+ */
+
+/**
+ * @subsection  Control Row Pagination
+ */
+/*
+ * form.Pagination is the new style pagination, div.Pagination the old style
+ * Both should work with this CSS
+ */
+
+span.Pagination a {
+    color: #c8c6c4;
+}
+
+span.Pagination a:hover {
+    color: #F92;
+}
+
+span.Pagination span.PaginationLimit {
+    color: #FF0000;
+}
+
+} /* end @media */

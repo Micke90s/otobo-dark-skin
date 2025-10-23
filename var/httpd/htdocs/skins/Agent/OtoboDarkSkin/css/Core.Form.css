@@ -1,0 +1,288 @@
+/* OTOBO is a web-based ticketing system for service organisations.
+
+https://github.com/relkai/otobo-dark-skin
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+*/
+
+/**
+ * @package     Skin "OtoboDarkSkin"
+ * @section     Forms
+ */
+
+@media screen,projection,tv,handheld {
+
+/* Dark mode for select fields */
+select {
+    background: #141414;
+    color: #c8c6c4;
+    border-color: #555;
+}
+
+/**
+ * @subsection  Input focus
+ * @note        Does not work in IE6, only partially in IE7 (no focus)
+ */
+
+input[type=text],
+input[type=password],
+input[type=email],
+textarea,
+select[multiple=multiple] {
+    border-color: #333;
+    border-top-color: #444;
+    background-color: #141414;
+    -webkit-box-shadow: inset 1px 1px 3px #222, inset -1px -1px 3px #222;
+    box-shadow: inset 1px 1px 3px #222, inset -1px -1px 3px #222;
+}
+
+select[multiple=multiple] {
+    box-shadow: inset 1px 1px 3px #222, inset -1px -1px 3px #222;
+}
+
+select[multiple=multiple] option:nth-child(odd) {
+    background-color: #141414;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+textarea {
+    color: #c8c6c4;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #aaa;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #aaa;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #aaa;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #aaa;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #aaa;
+}
+
+:focus::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #555;
+}
+
+:focus:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #555;
+   opacity: 1;
+}
+
+:focus::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #555;
+   opacity: 1;
+}
+
+:focus:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #555;
+}
+
+:focus::-ms-input-placeholder { /* Microsoft Edge */
+   color: #555;
+}
+
+/**
+ * @subsection  Textarea
+ * @note        Fixed font needed in textareas because otherwise the line wrapping is incorrect.
+ */
+
+/**
+ * @subsection  Input Readonly
+ */
+input[type=text][readonly],
+input[type=password][readonly],
+input[type=email][readonly],
+textarea[readonly] {
+    background-color: #333;
+}
+
+/**
+ * @subsection  Buttons
+ */
+
+button.Add,
+a.Add {
+    background: url(../img/filter_add.png) no-repeat center;
+}
+
+button.Add:hover,
+button.Add:focus,
+a.Add:hover,
+a.Add:focus {
+    background: url(../img/filter_add_hover.png) no-repeat center;
+}
+
+button.Remove,
+a.Remove {
+    background: url(../img/filter_remove.png) no-repeat center;
+}
+
+button.Remove:hover,
+button.Remove:focus,
+a.Remove:hover,
+a.Remove:focus {
+    background: url(../img/filter_remove_hover.png) no-repeat center;
+}
+
+.AddButton,
+.RemoveButton {
+    color: #c8c6c4;
+}
+
+/**
+ * @note    Push-lookalike for active state
+ */
+.GetAllAJAX {
+    color: #c8c6c4;
+}
+
+.AdditionlFieldIcon {
+    color: #c8c6c4;
+}
+
+/**
+ * @subsection    GenericAgent ClearSelect
+ */
+
+.GenericAgentClearSelect {
+    color: #c8c6c4;
+}
+
+/**
+ * @subsection    Tree selection icon and overlay for select boxes
+ */
+
+.ShowTreeSelection {
+    color: #c8c6c4;
+}
+
+.JSTreeField .jstree-search.jstree-clicked {
+    color: #c8c6c4;
+}
+
+/**
+ * @subsection  Form
+ */
+
+fieldset > legend > span {
+    border-bottom-color: #333;
+}
+
+form label.Mandatory {
+    color: #c8c6c4 !important;
+}
+
+.CustomerContainer,
+.CcCustomerContainer,
+.BccCustomerContainer {
+    background-color: #141414;
+    border-color: #272727;
+    -moz-box-shadow: inset 1px 1px 5px #000;
+    -webkit-box-shadow: inset 1px 1px 5px #000;
+    box-shadow: inset 1px 1px 5px #000;
+}
+
+.CustomerContainer .CustomerTicketText.MainCustomer {
+    background-color: #141414;
+}
+
+.CustomerContainer .BoxLabel,
+.CcCustomerContainer .BoxLabel,
+.BccCustomerContainer .BoxLabel {
+    background-color: #1f1f1f;
+    text-shadow: 1px 1px 1px #000;
+    color: #c8c6c4;
+}
+
+/**
+ * @note        Give the user a hint about linked label elements (they are clickable and
+ *                  give focus to the linked element.
+ */
+
+form input.Error,
+form textarea.Error,
+form input.Error:focus,
+form textarea.Error:focus {
+    border-color: #ea2400;
+}
+
+/*
+ * This will be displayed by Core.UI.Tooltips
+ */
+
+/**
+ * @subsection  TableLike
+ * @description Provides a table-like, aligned label-value structure
+ */
+
+fieldset.TableLike > label:not(.ck-label),
+fieldset.TableLike > .Row > label:not(.ck-label),
+fieldset.TableLike .Row > .FieldCell label:not(.ck-label) {
+    /*color: var(--colTextLight);*/
+    color: #929292;
+    text-shadow: 0 1px 0 #000;
+}
+
+fieldset.TableLike > label,
+fieldset.TableLike > .Row > label {
+    text-shadow: 0 1px 0 #000;
+}
+
+.oooTitle > p ,
+.oooTitle > p {
+    text-shadow: 0 1px 0 #000;
+}
+
+/**
+ * @note     Also make labels grey which occur inside of a field,
+ *          for example for complex input elements.
+ */
+fieldset.TableLike > .Field label,
+fieldset.TableLike > .Row > .Field label {
+    color: #929292;
+}
+
+/**
+ * @note    The RichText field needs to float, otherwise it breaks
+ *          in small screens.
+ *          Additionally we have a generic FloatingField class,
+ *          RichTextField is for backwards compatibility.
+ */
+
+/**
+ * @note        FixedLabel - this additional class for TableLike
+ *              makes the labels have a fixed size
+ */
+
+/**
+ * @note        FixedLabelSmall - this additional class for TableLike
+ *              makes the labels have a small fixed size
+ */
+iframe.Signature {
+    border-color: #888;
+}
+
+/**
+ * @subsection freetext fields
+ */
+
+} /* end @media */

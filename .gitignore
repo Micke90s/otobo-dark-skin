@@ -1,5 +1,5 @@
 # ignore css cache
-/css-cache
+/var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css-cache
 
 # ignore sftp config
 /.ftpconfig

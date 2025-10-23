@@ -1,0 +1,145 @@
+/* OTOBO is a web-based ticketing system for service organisations.
+
+https://github.com/relkai/otobo-dark-skin
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+*/
+
+/**
+ * @package     Skin "OtoboDarkSkin"
+ * @section     Header
+ */
+
+@media screen,projection,tv,handheld {
+
+/**
+ * @subsection  Header
+ */
+#Header {
+    background: #0a0a0a;
+    color: #FFF;
+}
+
+/**
+ * @subsection  Logo
+ */
+
+/**
+ * @subsection  Toolbar
+ */
+
+#ToolBar li.UserAvatar .Initials {
+    text-shadow: 1px 1px 1px #1f1f1f;
+}
+
+@keyframes border-fill {
+    0%   { border-bottom-color: #3ab5e4; }
+    25%  { border-bottom-color: #3ab5e4; border-left-color: #3ab5e4; }
+    50%  { border-bottom-color: #3ab5e4; border-left-color: #3ab5e4; border-top-color: #3ab5e4; }
+    100% { border-bottom-color: #3ab5e4; border-left-color: #3ab5e4; border-top-color: #3ab5e4; border-right-color: #3ab5e4; }
+}
+
+#ToolBar li.UserAvatar div {
+    background-color: #333;
+}
+
+#ToolBar li.UserAvatar div:after {
+	border-bottom-color: #333;
+}
+
+#ToolBar li.UserAvatar div a,
+#ToolBar li.UserAvatar div span {
+    background-color: #141414;
+}
+
+body.Visible-ScreenXL #ToolBar li.UserAvatar div a:hover {
+    background: #333;
+    color: #3ab5e4;
+}
+
+#ToolBar li.UserAvatar div span {
+    border-bottom-color: #3ab5e4;
+    background-color: #333;
+}
+
+#ToolBar a i {
+    color: #3ab5e4 !important;
+}
+
+#ToolBar .Extended input[type=text] {
+    background: #141414;
+    border-color: #3ab5e4;
+    color: #1f1f1f;
+}
+
+#ToolBar .Extended input[type=text]:focus {
+    background: #3ab5e4;
+}
+
+#ToolBar .Extended.SearchFulltext:before {
+    color: #3ab5e4;
+}
+
+/**
+ * @subsection      Navigation Level-0
+ */
+
+/**
+ * @subsection      Main hover effect
+ */
+
+#Navigation > li > a {
+    color: #c8c6c4;
+}
+
+#Navigation > li > a:after {
+    background: #3ab5e4;
+}
+
+#Navigation > li:hover > a,
+#Navigation > li:active > a {
+    color: #3ab5e4;
+}
+
+/**
+ * @subsection      Search icon
+ */
+#Navigation a i {
+    color: #3ab5e4;
+}
+
+/**
+ * @subsection      Navigation Second level
+ */
+#Navigation > .Active > ul {
+    background: #c8c6c4;
+}
+
+#Navigation > .Active > ul > li:hover {
+    background: #3ab5e4;
+}
+
+#Navigation > .Active > ul > li:hover > a {
+    color: #c8c6c4;
+}
+
+#Navigation > .Active > ul > li > a {
+    color: #c8c6c4;
+    border-bottom-color: #1a1a1a;
+    background-color: #1a1a1a;
+}
+
+#Navigation > .Active > ul > li > a:hover {
+    color: #3ab5e4;
+    border-bottom-color: #1a1a1a;
+    background-color: #1a1a1a;
+}
+
+} /* end @media */

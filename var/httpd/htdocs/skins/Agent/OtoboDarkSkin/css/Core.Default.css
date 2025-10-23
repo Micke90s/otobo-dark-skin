@@ -1,0 +1,665 @@
+/* OTOBO is a web-based ticketing system for service organisations.
+
+https://github.com/relkai/otobo-dark-skin
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+*/
+
+/**
+ * @package     Skin "Default"
+ * @section     Default Settings
+ */
+
+@media screen,projection,tv,handheld {
+
+/** 
+ * @subsection Fallback Color Definitions 
+ */
+    
+/*
+The CSS-Variables cannot be used as the values are redefined on body level by setting `AgentColorDefinitions`
+*/
+:root{
+    /*--colMainDark: #00023c;
+    --colMainLight: #000099;
+    --colMainHover: #001bff;
+    --colBGElement: #fff;
+    --colBGLight: #f7f7f9;
+    --colBGLightMedium: #eeeef2;
+    --colBGMedium: #e5e5eb;
+    --colBGMediumDark: #cdcdd8;
+    --colBGDark: #bfc0ce;*/
+    --colTextLight: #929292 !important;  
+    /*--colTextMedium: #54557c;
+    --colTextDark: #00023c;
+    --colTextErr: #ea2400;
+    --colTextWarn: #f5af36;*/
+    --colTextLink: #659ac6 !important;
+    /*--colHighlight: #fef235;
+    --colNotifyOK: #c4cdfa;
+    --colNotifyWarn: #fffccc;
+    --colNotifyErr: #f9bcb2;
+    --colHoverLight: #fffccc;
+    --colHoverDark: #fef235;
+    --colShadowDark: rgba(0, 2, 71, 0.16);*/
+}
+
+/**
+ * @subsection  Fonts
+ */
+
+/**
+ * @subsection  Loading Dialog
+ */
+
+.Dialog .InnerContent .Waiting {
+    background: #fff;
+}
+
+/**
+ * @subsection  Print elements - Only show when page is printed
+ */
+
+/**
+ * @subsection  Hidden elements - Elements that are hidden at first
+ */
+
+/**
+ * @subsection      ARIA (Accessibility)
+ * @subsubsection   AlertMessage
+ * @note            This definition allows to create text on the page
+ *                  which is not seen, but will be read by the screen reader.
+ *                  display: none; cannot be used in this case.
+ */
+
+/**
+ * @subsection  ElementPool - Hide elements for later use with JavaScript
+ */
+
+/**
+ * @subsection  Links
+ */
+
+a, a:visited {
+    /*color: var(--colTextLink);*/
+    color: #659ac6;
+}
+
+a:hover,
+a:focus {
+    /*color: var(--colTextDark);*/
+    color: #82c7ff;
+}
+
+/**
+ * @subsection  Headings
+ */
+h2 {
+    /*color: var(--colTextMedium);*/
+    color: #474747; 
+}
+
+h3 {
+    /*color: var(--colTextDark);*/
+    color: #c8c6c4;
+}
+
+h4 {
+    /*color: var(--colTextDark);*/
+    color: #c8c6c4;
+}
+
+h5 {
+    /*color: var(--colTextDark);*/
+    color: #c8c6c4;
+}
+
+/**
+ * @subsection  Paragraphs
+ * @note        Use paragraphs instead of <div>s for text-only, multiline content!
+ */
+
+/**
+ * @subsection  Code Examples
+ */
+
+/**
+ * @subsection  Text modifiers
+ */
+
+/**
+ * @subsection  Regular lists
+ * @note        List elements (ul, ol) are being reset by default to avoid browser styling, so we
+                need to define our own 'default' lists using a class.
+ */
+
+/**
+ * @subsection  Definition lists
+ */
+
+/**
+ * @subsection  Text
+ */
+.Notice {
+    color: #c8c6c4;
+}
+
+/**
+ * @subsection  Errors
+ * @note        Error fields for forms
+ */
+
+.ErrorBox {
+    /*color: var(--colTextMedium);*/
+    color: rgba(255, 255, 255, 0.9);
+    /*background: var(--colNotifyErr);*/
+    background: #B83850;
+}
+
+.SuccessBox {
+    /*color: #FFF;*/
+    /*background: var(--colNotifyOK);*/
+    background: #8FB738;
+}
+
+.ErrorBox span a,
+.SuccessBox span a {
+    /*color: var(--colTextMedium);*/
+    color: #fff;
+    /*border-bottom-color: rgba(255, 255, 255, 0.5);*/
+}
+
+.ErrorBox span a:hover,
+.SuccessBox span a:hover {
+    /*border-color: var(--colTextLight);*/
+    border-color: #fff;
+}
+
+/**
+ * @subsection  Drag & drop upload
+ */
+
+div.DnDUpload {
+    border-color: #272727;
+    color: #aaa;
+    background-color: #1f1f1f;
+}
+
+div.DnDUpload:focus {
+    border-color: #c8c6c4;
+    color: #c8c6c4;
+}
+
+input.AjaxDnDUpload.Error + div.DnDUpload {
+    color: #ea2400;
+    border-color: #ea2400;
+}
+
+div.DnDUpload.DragOver {
+    background: #eee;
+    color: #444;
+}
+
+.AttachmentListContainer .Busy {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+table.AttachmentList .Progress {
+    background: #fef235;
+}
+
+table.AttachmentList .AttachmentDelete:focus i {
+    color: #c8c6c4;
+}
+
+
+/**
+ * @note    Use the class InvisibleText to hide text from the screen,
+ *          while it is still recognized and read by screen readers.
+ */
+
+/**
+ * @subsection  Spacings
+ */
+
+/**
+ * @subsection  Indents
+ */
+
+/**
+ * @subsection  Box alignment
+ */
+
+/**
+ * @subsection  Controlling the display: value
+ * @note        This is especially helpful for links. When
+ *              they have this class, the entire block will be clickable.
+ */
+
+/**
+ * @subsection  Clear
+ */
+
+/**
+ * @subsection  MainBox
+ */
+
+.AsteriskExplanation {
+    color: #999;
+}
+
+/**
+ * @subsection  Bread crumb
+ */
+
+.BreadCrumb {
+    background: #1f1f1f;
+    box-shadow: 1px 1px 0px #000;
+}
+
+
+.BreadCrumb li {
+    color: #dbd9d7;
+}
+
+.BreadCrumb li:first-child a i {
+    color: #c8c6c4;
+}
+
+.BreadCrumb li:first-child a:hover i {
+    color: #dbd9d7;
+}
+
+.BreadCrumb a {
+    color: #c8c6c4;
+}
+
+.BreadCrumb a:after {
+    border-bottom-color: #3ab5e4;
+}
+
+.BreadCrumb li:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-left-color: #141414;
+}
+
+.RTL .BreadCrumb li:after {
+    border-right-color: #141414;
+}
+
+.BreadCrumb li:before {
+    border-color: rgba(238, 238, 238, 0);
+    border-left-color: #1f1f1f;
+}
+
+.RTL .BreadCrumb li:before {
+    border-right-color: #141414;
+}
+
+/**
+ * @subsection  Standard Widths
+ */
+
+/**
+ * @subsection  MessageBox
+ */
+
+.MessageBox {
+    background: #F6A72B;
+}
+
+.MessageBox p,
+.MessageBox a {
+    color: rgba(255,255,255,0.8);
+}
+
+.MessageBox a:hover,
+.MessageBox a:hover {
+    color: #fff;
+}
+
+.MessageBox.Notice p,
+.MessageBox.Notice a {
+    color: #1f1f1f;
+}
+
+.MessageBox.Notice a:hover {
+    color: #000;
+}
+
+.MessageBox.Error {
+    background: #DA3633;
+}
+
+.MessageBox.Confirmation {
+    background: #133c4d;
+}
+
+.MessageBox.Info {
+    background-color: #133c4d;
+}
+
+.MessageBox.Info a.Button {
+    background-color: #333;
+}
+
+.MessageBox.Info a.Button:hover {
+    background-color: #444;
+}
+
+.MessageBox.Info a.Button i {
+    color: #3ab5e4;
+}
+
+/**
+ * @subsection  Flag
+ */
+
+.Flag span {
+    background-color: #cdcdcd;
+}
+
+.Flag span.Escalated {
+    background-color:#ea2400;
+}
+
+.Flag span.New {
+    background-color: #8bef4d;
+}
+
+.Flag span.Warning {
+    background-color: #ffdd50;
+}
+
+.Flag span.PriorityID-1 {
+    background-color:#03c4f0;
+}
+
+.Flag span.PriorityID-2 {
+    background-color:#83bfc8;
+}
+
+.Flag span.PriorityID-3 {
+    background-color:#cdcdcd;
+}
+
+.Flag span.PriorityID-4 {
+    background-color:#ffaaaa;
+}
+
+.Flag span.PriorityID-5 {
+    background-color:#ea2400;
+}
+
+/**
+ * @subsection  "Unread" star
+ */
+span.UnreadArticles i:first-child,
+div.UnreadArticles i:first-child {
+    color: #c8c6c4 !important;
+}
+
+span.UnreadArticles.Remarkable i,
+div.UnreadArticles.Remarkable i {
+    color: #c8c6c4;
+}
+
+span.UnreadArticles.Ordinary,
+div.UnreadArticles.Ordinary {
+    color: #c8c6c4;
+}
+
+tbody tr:hover span.UnreadArticles i {
+    color: #F6A72B;
+}
+
+/**
+ * @subsection  Charts
+ */
+#ChartTooltip {
+    background: #000;
+    color: #FFF;
+}
+
+/**
+ * @subsection  Datepicker
+ */
+.DatepickerIcon {
+    color: #999;
+}
+
+
+/* Vacation Days */
+td.Highlight a.ui-state-default {
+    border-color: #3ab5e4;
+    background: #3ab5e4 !important;
+    background: -moz-linear-gradient(top,  #2c8bb0 0%, #3ab5e4 100%) !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2c8bb0), color-stop(100%,#3ab5e4)) !important;
+    background: -webkit-linear-gradient(top,  #2c8bb0 0%,#3ab5e4 100%) !important;
+    background: -o-linear-gradient(top,  #2c8bb0 0%,#3ab5e4 100%) !important;
+    background: -ms-linear-gradient(top,  #2c8bb0 0%,#3ab5e4 100%) !important;
+    background: linear-gradient(to bottom,  #2c8bb0 0%,#3ab5e4 100%) !important;
+}
+
+/* Today */
+
+/*Weekend*/
+
+/**
+ * @subsection  Autocompletion
+ */
+
+.ui-menu-item:hover,
+.ui-menu-item:focus,
+.ui-menu-item:active,
+.ui-autocomplete .ui-menu-item-wrapper.ui-state-active {
+    background: #666;
+}
+
+/**
+ * @subsection  Icons
+ */
+
+/**
+ * @subsection  Dialog popup width
+ */
+
+/**
+ * @subsection global search
+ */
+
+/**
+ * @subsection global message format
+ */
+.ArticleBody {
+    background: #ccc;
+    color: #141414;
+}
+
+.ArticleHTML {
+    background: #ccc;
+}
+
+/**
+ * @subsection  Chat
+ */
+
+.ArticleChat .Time {
+    color: #888;
+}
+
+.ArticleChat .SystemGenerated .Text {
+    color: #888;
+}
+
+.ArticleChat .Own .Name {
+    color: red;
+}
+
+#ChatStartDialog form .Primary:focus {
+    border-color: #c8c6c4;
+}
+
+.ChatProtocol {
+    border-color: #ccc;
+}
+
+/**
+ * @subsection global jQuery UI optimizations
+ */
+/*
+* Bug #8288: Autocomplete search results show up in Times font when using Internet Explorer
+*/
+.ui-widget-content {
+    color: #c8c6c4 !important;
+    background: #1f1f1f !important;
+}
+
+.ui-menu-item {
+    background: #1f1f1f;
+}
+
+.ui-menu .ui-menu-item a {
+    color: #c8c6c4 !important;
+}
+
+.ui-widget-header {
+    background: #1f1f1f !important;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    background: #1f1f1f !important;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+    background: #333 !important;
+}
+
+/**
+ * @subsection global CKEditor fixes/improvements
+ */
+
+.cke_toolgroup .cke_button_on {
+    background-color: #ccc;
+}
+
+input.cke_dialog_ui_input_password:focus,
+input.cke_dialog_ui_input_text:focus,
+textarea.cke_dialog_ui_input_textarea:focus {
+    border-color: #fef235 !important;
+}
+
+/**
+ * @subsection global nvd3 improvements/fixes
+ */
+
+/*
+ * @subsection Popup-Iframe (for responsive)
+ */
+
+/**
+ * @subsection  Floaters
+ */
+
+body > div.MetaFloater {
+    background: #fff;
+    box-shadow: 2px 1px 3px #aaa;
+    border-color: #eee;
+}
+
+body > div.MetaFloater:after {
+    border-bottom-color: #eee;
+}
+
+body > div.MetaFloater.Bottom:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-top-color: #fff;
+}
+
+body > div.MetaFloater:before {
+    border-color: rgba(170, 170, 170, 0);
+    border-bottom-color: #aaa;
+}
+
+body > div.MetaFloater.Bottom:before {
+    border-color: rgba(170, 170, 170, 0);
+    border-top-color: #aaa;
+}
+
+body > div.MetaFloater > a {
+    color: #555;
+}
+
+body > div.MetaFloater > div.NoPreview {
+    color: #777;
+}
+
+body > div.MetaFloater > div.NoPreview i {
+    color: #777;
+}
+
+/**
+ * @subsection AJAX Loader
+ */
+
+.AJAXLoader:after,
+#Canvas .Activity .Loader:after,
+.Loading > .Header h2:after,
+.OverviewControl.Loading .ControlRow:after {
+    color: #777;
+}
+}
+
+/*
+ * @subsection Media Query Reset-CSS (for desktop screen resolutions)
+ */
+@media only screen and (min-width: 1025px) {
+
+    /*
+     * @subsection Responsive classes
+     */
+
+    /*
+     * @subsection Responsive footer classes
+     * @description Used to determinethe active screen size in JavaScript
+     */
+
+    /* Filters */
+    .TableFilterContainer .FilterRemove {
+        color: #555;
+    }
+
+    .TableFilterContainer .FilterRemove:focus,
+    .TableFilterContainer .FilterRemove:hover,
+    .TableFilterContainer .FilterRemove:active {
+        color: #c8c6c4;
+    }
+
+    .fa {
+        color: #c8c6c4;
+    }
+}
+
+/**
+ * @subsection CKEditor 
+   Path: /var/httpd/htdocs/common/css/ckeditor5-44.1.0-editor.css
+ */
+
+.ck.ck-editor__main>.ck-editor__editable {
+    background: #ccc !important;
+    color: #000;
+}

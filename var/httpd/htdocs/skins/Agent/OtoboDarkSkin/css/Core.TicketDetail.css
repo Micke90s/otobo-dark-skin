@@ -1,0 +1,278 @@
+/* OTOBO is a web-based ticketing system for service organisations.
+
+https://github.com/relkai/otobo-dark-skin
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+*/
+
+/**
+ * @package     Skin "OtoboDarkSkin"
+ * @section     TicketDetails
+ */
+
+@media screen,projection,tv,handheld {
+
+/**
+ * @subsection  Headline
+ */
+
+/**
+ * @subsection  Article view settings
+ */
+
+/**
+ * @subsection  Article table head
+ */
+
+/**
+ * @subsection  Article table body
+ */
+
+#ArticleTableBody .Scroller {
+    background: #1f1f1f;
+}
+
+#ArticleTableBody .Scroller::-webkit-scrollbar-track {
+	background-color: #1f1f1f;
+}
+
+#ArticleTableBody .Scroller::-webkit-scrollbar {
+	background-color: #1f1f1f;
+}
+
+#ArticleTableBody .Scroller::-webkit-scrollbar-thumb {
+	background-color: #444;
+}
+
+#ArticleTableBody .Scroller::-webkit-scrollbar-thumb:hover {
+	background-color: #555;
+}
+
+.Avatar {
+    border-color: #444;
+    background: #333;
+}
+
+/**
+ * @subsection  ControlRow Icons
+ */
+
+/**
+ * @subsection  Attachment Dialog Content
+ */
+
+/**
+ * @subsection  ItemRow
+ * @note        contains random items and is positioned in the sidebar
+ */
+
+.ItemRow a {
+    color: #c8c6c4;
+}
+
+/**
+ * @subsection  ArticleBody
+ * @note        Styles for article body
+ */
+
+.MessageBrowser a.Close:hover {
+    color: #c8c6c4;
+}
+
+/**
+ * @subsection  ArticleColors
+ * @note        article colors
+ */
+
+.UseArticleColors td,
+.UseArticleColors tr:nth-child(even) td {
+    background: #1f1f1f;
+    border-color: #272727;
+    border-bottom-color: #272727;
+}
+
+.UseArticleColors tr.Active > td,
+.UseArticleColors tr:hover > td {
+    background-color: #383838 !important;
+    border-color: #383838;
+    border-right-color: #383838 !important;
+}
+
+.UseArticleColors tr.customer > td {
+    background: #193200 !important;
+    border-bottom-color: #264d00;
+    border-color: #264d00;
+}
+
+.UseArticleColors tr.customer.Active > td,
+.UseArticleColors tr.customer:hover > td {
+    background-color: #2d5900 !important;
+    border-color: #2d5900 !important;
+}
+
+.UseArticleColors tr.agent > td {
+    background: #0d2833 !important;
+    border-bottom-color: #133c4d;
+    border-color: #133c4d;
+}
+
+.UseArticleColors tr.agent.Active > td,
+.UseArticleColors tr.agent:hover > td {
+    background-color: #1a5066 !important;
+    border-color: #1a5066 !important;
+}
+
+.UseArticleColors tr.NotVisibleForCustomer > td {
+    background: #4d000d !important;
+    border-bottom-color: #30000b;
+    border-color: #30000b;
+}
+
+.UseArticleColors tr.NotVisibleForCustomer.Active > td,
+.UseArticleColors tr.NotVisibleForCustomer:hover > td {
+    background-color: #660011 !important;
+    border-color: #660011 !important;
+}
+
+.UseArticleColors tr.system > td {
+    background: #1f1f1f !important;
+    border-bottom-color: #272727;
+    border-color: #272727;
+}
+
+.UseArticleColors tr.system.Active > td,
+.UseArticleColors tr.system:hover > td {
+    background-color: #292929 !important;
+    border-color: #292929 !important;
+}
+
+.ArticleMailContent iframe,
+.ArticleMailContent .ArticleBody,
+.ArticleMailContent .ArticleHTML,
+.ArticleMailContent .ArticleMeta {
+    border-color: #eee;
+}
+
+.UseArticleColors #ArticleItems .system .ArticleMailContent iframe,
+.UseArticleColors #ArticleItems .system .ArticleMailContent .ArticleBody,
+.UseArticleColors #ArticleItems .system .ArticleMailContent .ArticleHTML,
+.UseArticleColors #ArticleItems .system .ArticleMailContent .ArticleMeta {
+    border-color: #3ab5e4;
+}
+
+.UseArticleColors .Incoming.system .ArticleMailContentHTMLWrapper:after,
+.UseArticleColors .Incoming.system .ArticleHTML:after,
+.UseArticleColors .Incoming.system .ArticleBody:after {
+    border-left-color: #3ab5e4;
+}
+
+.UseArticleColors .Outgoing.system .ArticleMailContentHTMLWrapper:after,
+.UseArticleColors .Outgoing.system .ArticleHTML:after,
+.UseArticleColors .Outgoing.system .ArticleBody:after {
+    border-right-color: #3ab5e4;
+}
+
+.UseArticleColors #ArticleTable a {
+    color: #c8c6c4;
+}
+
+.UseArticleColors #ArticleTable i.fa-spin {
+    color: #333;
+}
+
+/*
+* Agent article types
+*/
+
+/*
+* System article types
+*/
+
+/*
+* Customer artcle types
+*/
+
+/**
+ * @subsection  Timeline View
+ */
+
+.TimelineView:after {
+    background-color: #F5F5F5;
+}
+
+.TimelineView > ul {
+    border-left-color: #aaa;
+}
+
+.TimelineView > ul:first-child {
+    border-right-color: #aaa;
+}
+
+.TimelineView > ul > li.Important:hover h3 .fa-info-circle {
+    color: #c8c6c4;
+}
+
+.TimelineView > ul > li h3 a:hover {
+    color: #c8c6c4;
+}
+
+.TimelineView > ul > li:hover h3 > span,
+.TimelineView > ul > li h3 > span:hover {
+    background-color: #c8c6c4;
+}
+
+.TimelineView li ul li.AttachmentsLink:hover {
+    color: #c8c6c4;
+}
+
+.TimelineView > ul > li.NewTicket h3 > span span {
+    color: #c8c6c4;
+}
+
+.TimelineView .PlainText > div.ChatMessage.SystemGenerated {
+    color: #aaa;
+}
+
+.ActionsTimelineView .ItemActions {
+    background: #EEEEEE;
+}
+
+/* Define colors for different event types */
+
+.UseArticleColors .TimelineView .TypeTicketAutoAction h3 {
+    color: #c8c6c4;
+}
+
+.UseArticleColors .TimelineView .TypeNoteInternal h3 {
+    color: #c8c6c4;
+}
+
+.ArticleAttachments li {
+    background: #141414;
+    color: #777;
+}
+
+.ArticleAttachments li h5 {
+    color: #c8c6c4;
+}
+
+.ArticleAttachments li div a {
+    background: #555;
+}
+
+.ArticleAttachments li div a:hover {
+    color: #333;
+}
+
+.ArticleAttachments li div a + a {
+    border-top-color: #ccc;
+}
+
+} /* end @media */

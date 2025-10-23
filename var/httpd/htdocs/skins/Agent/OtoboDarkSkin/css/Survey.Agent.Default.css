@@ -1,0 +1,76 @@
+/* OTOBO is a web-based ticketing system for service organisations.
+
+https://github.com/relkai/otobo-dark-skin
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+*/
+
+/**
+ * @package     Skin "OtoboDarkSkin"
+ * @section     Default Settings
+ */
+
+@media screen,projection,tv,handheld {
+
+/**
+ * @subsection Survey Graph
+ */
+
+fieldset.SurveyGraphs .Answer {
+    text-shadow: 0 1px 0 #000;
+}
+
+div.SurveyGraphBar {
+    background-color: #3ab5e4;
+}
+
+p.SurveyGraphLeyend {
+    text-shadow: 0 1px 0 #000;
+}
+
+a.ArrowUp i,
+a.ArrowDown i {
+    color: #3399FF;
+}
+
+a.ArrowUp:hover i,
+a.ArrowDown:hover i {
+    color: #339900 !important;
+}
+
+a.ArrowUpDisabled i,
+a.ArrowDownDisabled i {
+    color: #909090;
+}
+
+a.SeeDetails i {
+    color: #FF9922;
+}
+
+
+#SurveyEmptyMessageSmall {
+    border-color: #ddd;
+    background-color: white;
+}
+
+
+.TableSmall tbody tr.Invalid {
+    color: #CCC;
+}
+
+.SurveyArrow {
+    color: #FF9922;
+}
+
+.SurveyArrow:hover{
+    color: #FF8600;
+}
+
+}
