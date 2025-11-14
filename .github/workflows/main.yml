@@ -1,3 +1,11 @@
+# Workflow syntax for GitHub Actions
+# This workflow is used to generate a OPM (OTOBO Package Manager) installation file which can be installed in the OTOBO admin frontend 
+# To enable the creation of the release you may have to set the `Read and write permissions` in the `Workflow permissions` (Project Settings > Actions > General)
+# Feel free to use it in other OTOBO plugin projects 
+#
+# This file was initially generated for the project https://github.com/Micke90s/OTOBO-Example-Agent-Skin
+# Please keep this reference if used in other projects. 
+
 name: Release
 run-name: Release ${{ github.repository }} - ${{ github.ref }}
 on:
@@ -56,6 +64,7 @@ jobs:
              OPMFILE=$(basename $(ls -t ./build/*.opm | head -n2 ) )
              echo "ARTIFACT_PATH=./build/${OPMFILE}" >> $GITHUB_OUTPUT
              echo "ARTIFACT_NAME=${OPMFILE}" >> $GITHUB_OUTPUT
+             sed -i "s/<BuildHost>yourhost.example.com<\/BuildHost>/<BuildHost>github.com<\/BuildHost>/g" ./build/${OPMFILE}
       # Release
       - name: Create release
         id: create_release
