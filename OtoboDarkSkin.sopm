@@ -41,6 +41,7 @@
     <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Responsive.css" />
     <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Table.css" />
     <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.TicketDetail.css" />
+    <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Tooltip.css" />    
     <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.Widget.css" />
     <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/Core.WidgetMenu.css" />
     <File Permission="660" Location="var/httpd/htdocs/skins/Agent/OtoboDarkSkin/css/FAQ.Agent.Default.css" />

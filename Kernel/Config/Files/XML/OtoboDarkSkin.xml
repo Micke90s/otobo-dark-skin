@@ -12,5 +12,17 @@
       </Hash>
     </Value>
   </Setting>
+  <Setting Name="AgentLogoCustom###OtoboDarkSkin" Required="0" Valid="0">
+    <Description Translatable="1">The logo shown in the header of the agent interface for the skin "OtoboDarkSkin". See "AgentLogo" for further description.</Description>
+    <Navigation>Frontend::Agent</Navigation>
+    <Value>
+      <Hash>
+        <Item Key="URL">skins/Agent/default/img/logo_bg.png</Item>
+        <Item Key="StyleTop">7px</Item>
+        <Item Key="StyleRight">24px</Item>
+        <Item Key="StyleHeight">55px</Item>
+        <Item Key="StyleWidth">300px</Item>
+      </Hash>
+    </Value>
+  </Setting>  
 </otobo_config>
-
