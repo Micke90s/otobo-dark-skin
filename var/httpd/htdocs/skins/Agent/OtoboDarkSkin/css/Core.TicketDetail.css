@@ -64,6 +64,14 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
  * @subsection  ControlRow Icons
  */
 
+.ControlRow .Icons a:hover {
+    background-color: unset;
+}
+
+.ControlRow .Icons a i:hover {
+    color: #c8c6c4;    
+}
+
 /**
  * @subsection  Attachment Dialog Content
  */
