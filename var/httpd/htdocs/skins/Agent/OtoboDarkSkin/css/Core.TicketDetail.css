@@ -82,6 +82,10 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
  * @note        Styles for article body
  */
 
+.MessageBrowser p {
+    background-color: #333;
+}
+
 .MessageBrowser a.Close:hover {
     color: #c8c6c4;
 }
