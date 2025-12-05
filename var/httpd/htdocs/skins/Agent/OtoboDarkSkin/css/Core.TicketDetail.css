@@ -162,6 +162,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 .ArticleMailContent .ArticleHTML,
 .ArticleMailContent .ArticleMeta {
     border-color: #eee;
+    background-color: #ccc;
 }
 
 .UseArticleColors #ArticleItems .system .ArticleMailContent iframe,
